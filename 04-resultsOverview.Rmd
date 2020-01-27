@@ -1,0 +1,17 @@
+# FishPath Tool Results Overview
+
+Each of the three sections of the results can be accessed individually without needing to complete all three sections. If a user has not completed the questionnaire in at least one of the sections, they will be prompted to return to finish the section questionnaire before accessing results (Fig. 12).
+
+## Data Collection Section Results
+
+The Data Collection section allows the user to understand viable alternate means of collecting information, and the broad type of data that may be collected. In a harvest strategy context, a data collection program defines the method and the type of data that will be collected on the species of interest. The collection of these data is critical for informing stock status. Fishery data are used to either glean empirical performance indicators or inform a quantitative assessment.   
+
+The FishPath tool covers a range of data collection mechanisms (from market surveys, to logbooks and observer programs).  These data collection mechanisms are subdivided according to the broad category of data that may be collected, as these influence the viability of the data collection option. The four data categories in the FishPath tool are: 1) biological information; 2) data that yield a basic understanding of the fishery; 3) data that can inform temporal trend analyses (data time series), and 4) data that are of a sufficient quality to inform a model-based stock assessment. 
+
+## Assessment Section Results
+
+The Assessment section of the FishPath tool allows the user to understand which data-limited stock assessment methods are available and best suited to their fishery. In the FishPath tool, an assessment is defined as any analysis or performance indicator that gives useful information for management by direct or indirect measures of stock status. This could range from a “cause for concern” arising from expert judgement, qualitative risk assessments, values of empirical indicators relative to pre-defined trigger levels, multiple indicator frameworks, to life history analyses that provide estimates of fishing mortality, F, or fishing mortality at maximum sustainable yield FMSY, catch-only models, size or length based approaches,  to population dynamics model-fitting approaches that estimate biomass. 
+
+## Management Measure Section Results
+
+A management measure is the form of control used to manage the fishing mortality.  Once the desired management measures have been identified (for example, size limits, or catch adjustments in response to quantitative assessment outcomes), they are adjusted via “decision rules”, or “harvest control rules”. These specify the strength and nature of the pre-agreed management action to be taken given the status of the fishery, as determined by the assessment. Management measures can take many forms including spatial, temporal, effort, catch, and gear related restrictions. The FishPath tool does not have any minimum criteria listed for management measures, but instead uses cautionary caveats: while there may circumstances that point to an option being ill-advised, there are no hard-prohibiting factors, per se, that would prevent any single option being implemented. Multiple management measures can and should be used together. The FishPath tool results do not prescribe or give guidance on the specific form of the harvest rule, nor the strength of adjustment in response to assessment outcomes. However, FishPath does direct users to tools that can support in this process.

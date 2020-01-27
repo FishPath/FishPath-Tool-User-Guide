@@ -1,0 +1,30 @@
+# Questionnaire
+
+## Data Collection
+
+### Is this a "live" fishery: that is, is/are the species sold alive? {-}
+
+> **Description**: Data collection methods that involve overt handling or killing of the animal should be avoided.
+Fisheries for which some portion of the catch is sold alive should answer "partially".
+>
+> **Category**: Operational Characteristics
+>
+> **Answers**:
+> 
+> - Yes
+> - No
+> - Partially
+
+### Categorize the nature of the fishery in terms of its main market or activity. If the market or activity is mixed, select the highest market level (e.g., "commercial" over "local market"; "large-scale sport fishing" over "small-scale recreational"). {-}
+
+> **Category**: Operational Characteristics
+>
+> **Answers**: 
+>
+> - Small-scale recreational
+> - Subsistence
+> - Subsistence - artisanal (local markets only)
+> - Large-scale recreational
+> - Artisanal - commercial (range of boats selling locally and/or for export)
+> - Commercial - industrial
+

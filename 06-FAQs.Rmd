@@ -1,0 +1,31 @@
+# (APPENDIX) Appendix {-} 
+
+# FishPath Tool Frequently Asked Questions
+
+**How do I submit feedback about content or user experience?**
+
+FishPath benefits from the expertise and feedback of the global community of FishPath tool users. Users are encouraged to submit feedback about the FishPath tool, ultimately helping to improve the tool. There are three ways to submit feedback:
+
+1.	Submit issue on GitHub  
+2.	The “Help us improve the FishPath tool” button on FishPath Tool Dashboard. The user is prompted to categorize their feedback as “Content Related” or “Software Issue”.
+3.	Email support@fishpath.org 
+
+**How is my feedback addressed and incorporated?**
+
+The FishPath Tool undergoes periodic updates to ensure that the tool reflects the latest fisheries science and management information. User-submitted feedback and suggestions, as well as information from periodic reviews of the tool, are collated and synthesized by the FishPath Core Team and addressed and incorporated. 
+
+**How often is the FishPath tool updated?**
+
+Every 6 months.
+
+**How will I know about updates to the FishPath tool?**
+
+All FishPath users will receive an email every 6 months when updates are published. Common changes that users may expect are the addition of new options and questions. When they revisit the FishPath tool, they may need to answer new questions to see results and they may have new options in the results.
+
+**Are answers to new questions also updated in “copied fisheries”?**
+
+Once a fishery is copied, changes in the original or copied fishery will have no effect on the other.
+
+
+
+
