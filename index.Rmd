@@ -30,8 +30,10 @@ colorize = function(x, color){
 }
 ```
 
-`r colorize("Initial version for feedback", "red")`
+`r colorize("User Guide Version 0.1", "red")`
 
-```{r logo, echo=FALSE, fig.align='center', out.width='75%', fig.show='hold'}
+`r colorize("An optional survey soliciting feedback to improve the user guide will soon be available.", "red")`
+
+```{r logo, echo=FALSE, fig.align='center', out.width='40%', fig.show='hold'}
 knitr::include_graphics('images/fishpath-tnc-vertical.svg')
 ```

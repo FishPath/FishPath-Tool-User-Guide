@@ -21,7 +21,7 @@ Upon selecting “Create an Account”, a pop-up window appears with the followi
 
 Note that the email and password fields are case sensitive.
 
-This information is used to track user origin and the use of the FishPath tool by diverse organizations. At this account creation stage, the user is also prompted to read and accept the Terms of Service of the FishPath tool, developed by the Conservancy ([Appendix B](#terms)).
+This information is used to track user origin and the use of the FishPath tool. At this account creation stage, the user is also prompted to read and accept the Terms of Service of the FishPath tool, developed by the Conservancy ([Appendix B](#terms)).
 
 ```{r create-account, echo=FALSE, fig.cap='“Create an Account” screen of the FishPath tool.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/create-account.png')
@@ -46,7 +46,7 @@ After creating an account (new user) or logging in (existing user), the user is 
 When a user clicks the “FishPath Tool” menu in the top left corner, a drop-down display allows the user to navigate to various options (Fig.5). The “Reference Materials” tab displays all of the options contained in the FishPath Tool.
 
 ## Adding a New Fishery
-Selecting the blue button “Add a Fishery” allows users to start a new fishery in the FishPath tool that will be added to their account. First, a pop-up “Fishery Information” screen appears to prompt users to define the fishery of focus (\@ref(fig:fishery-info)), using the fields below. This information is used to better understand the use of the FishPath tool, provide high-level aggregate information about fishery characteristics, and to help users define the fishery to which they will be applying FishPath, so that answers will be directed at that fishery only. Multi-species, multi-fleet and other more complicated fisheries can require special consideration when approaching the questionnaire. Guidance will be added to this document at a later date.
+Selecting the blue button “Add a Fishery” allows users to start a new fishery in the FishPath tool that will be added to their account. First, a pop-up “Fishery Information” screen appears to prompt users to define the fishery of focus (\@ref(fig:fishery-info)), using the fields below. This information is used to better understand the use of the FishPath tool, provide high-level aggregate information about fishery characteristics, and to help users define the fishery to which they will be applying FishPath, so that answers will be directed at that fishery only. Multi-species, multi-fleet and other more complicated fisheries can require special consideration when approaching the questionnaire (guidance will be added to this document at a later date).
 
 -	Fishery Common Name(s):
 -	Genus / Species:
