@@ -3,7 +3,6 @@ Importantly, the FishPath tool requires a consistent internet connection to acce
 
 ## Welcome Page
 When a user navigates to https://fishpath.org/ , a welcome page is displayed with two prompts: “Create an Account” or “Login” (\@ref(fig:welcome)).
-<!-- (\@ref(fig:welcome-page)). -->
 
 ```{r welcome, echo=FALSE, fig.cap='Welcome page of the FishPath tool.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/welcome-page.png')
