@@ -1,7 +1,7 @@
 --- 
 title: "FishPath Tool User Guide"
 author: "The Nature Conservancy"
-date: "`r Sys.Date()`"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
   html_document:
     df_print: paged
