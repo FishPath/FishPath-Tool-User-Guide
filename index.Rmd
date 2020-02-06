@@ -1,7 +1,7 @@
 --- 
 title: "FishPath Tool User Guide"
 author: "The Nature Conservancy"
-date: "`r format(Sys.Date(), '%B %d, %Y')`"
+date: "Last updated: `r format(Sys.Date(), '%B %d, %Y')`"
 output:
   html_document:
     df_print: paged
@@ -19,20 +19,6 @@ fontsize: 11pt
 ---
 
 #   {-}
-
-```{r, echo=FALSE}
-colorize = function(x, color){
-  if (knitr::is_latex_output()) {
-    sprintf("\\textcolor{%s}{%s}", color, x)
-  } else if (knitr::is_html_output()) {
-    sprintf("<span style='color: %s;'>%s</span>", color, x)
-  } else x
-}
-```
-
-`r colorize("User Guide Version 0.1", "red")`
-
-`r colorize("An optional survey soliciting feedback to improve the user guide will soon be available.", "red")`
 
 ```{r logo, echo=FALSE, fig.align='center', out.width='40%', fig.show='hold'}
 knitr::include_graphics('images/fishpath-tnc-vertical.svg')

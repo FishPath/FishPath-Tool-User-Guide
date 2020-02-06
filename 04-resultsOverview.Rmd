@@ -1,6 +1,6 @@
 # FishPath Tool Results Overview
 
-Each of the three sections of the results can be accessed individually without needing to complete all three sections. If a user has not completed the questionnaire in at least one of the sections, they will be prompted to return to finish the section questionnaire before accessing results (\@ref(fig:summary-screen)).
+Each of the three sections of the results can be accessed individually without needing to complete all three sections. If a user has not completed the questionnaire in at least one of the sections, they will be prompted to return to finish the section questionnaire before accessing results (Figure \@ref(fig:summary-screen)).
 
 ## Data Collection Section Results
 

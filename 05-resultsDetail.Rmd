@@ -29,7 +29,7 @@ At the top of the Results Page, the user may either “Share”, “Export”, o
 The results table lists all the available options for the section of interest in rows. Each row summarizes the criteria met and failed, and the caveats invoked (see also “Criteria and Caveat Questions” section above). Each option can be selected and expanded to view its description and results in more detail. A guide to the content contained in each row is listed below.
 
 ### Table Structure
-\@ref(fig:single-row) displays a single row from an example results table. The single row represents one option in the FishPath tool, and the details of this singe row are as follows:
+Figure \@ref(fig:single-row) displays a single row from an example results table. The single row represents one option in the FishPath tool, and the details of this singe row are as follows:
 
 ```{r single-row, echo=FALSE, fig.cap='Headings of the FishPath tool results table.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/single-row.png')
@@ -70,7 +70,7 @@ Each row in the Results Table displays the option name with summarized results f
 
 First, a description of the option is provided, together with relevant references, and contact information (if available or appropriate). For the Data Collection options, the types of data that may be collected using the option are summarized. For the Assessment section, where available, links to assessment packages are provided.
 
-Next, the invoked criteria and caveats are summarized by (\@ref(fig:opt-desc))
+Next, the invoked criteria and caveats are summarized by (Figure \@ref(fig:opt-desc))
 
 - Criteria not met,
 -	Met criteria,
@@ -84,7 +84,7 @@ Next to each, there are individual drop-down menus where the user can find the s
 knitr::include_graphics(c('images/option-description.png', 'images/option-result-details.png'))
 ```
 
-**Criteria drop-down box (\@ref(fig:crit-drop-down)-\@ref(fig:assessment-crit-drop-down))**: Each criterion drop-down shows the relevant question with the user’s response shown (highlighted in black) relative to the minimum required level for that option (where green coloring starts on left) (\@ref(fig:crit-drop-down)). The Assessment section assigns traffic light colors to levels above the minimum, indicating their relative uncertainty and thus the relative caution that should be taken (\@ref(fig:assessment-crit-drop-down)).
+**Criteria drop-down box (Figures \@ref(fig:crit-drop-down)-\@ref(fig:assessment-crit-drop-down))**: Each criterion drop-down shows the relevant question with the user’s response shown (highlighted in black) relative to the minimum required level for that option (where green coloring starts on left) (Figure \@ref(fig:crit-drop-down)). The Assessment section assigns traffic light colors to levels above the minimum, indicating their relative uncertainty and thus the relative caution that should be taken (Figure \@ref(fig:assessment-crit-drop-down)).
 
 ```{r crit-drop-down, echo=FALSE, fig.cap='Example drop-down menu with details for an option in the Data Collection section that was eliminated for failing two criteria. The bold, black box and white text indicates the user answer to the question. The black answer options indicate those that result in elimination if selected. The green answer options indicate those that would have resulted in acceptance if selected.', fig.align='center', out.width='75%', fig.show='hold'}
 knitr::include_graphics('images/crit-drop-down.png')
@@ -93,7 +93,7 @@ knitr::include_graphics('images/crit-drop-down.png')
 ```{r assessment-crit-drop-down, echo=FALSE, fig.cap='Example drop-down menu with details for an option in the Assessment section that has passed criteria, but indicating the user to take caution regarding the uncertainty in the fishing effort data. Red indicates high uncertainty in the data. Green indicates low uncertainty.', fig.align='center', out.width='75%', fig.show='hold'}
 knitr::include_graphics('images/assessment-crit-drop-down.png')
 ```
-**Caveat Drop-Down Box (\@ref(fig:cav-drop-down)-\@ref(fig:static-cav-drop-down))**: Each individual caveat box displays the FishPath question with the user’s answer in grey text, followed by caveat text related to the use of the option in the fishery in the context of that particular question response. The color of each box reflects the caveat color (see caveat descriptions above): cautionary caveats shaded yellow, orange or red; positive attributes shaded green; and static caveats shaded in turquoise.
+**Caveat Drop-Down Box (Figures \@ref(fig:cav-drop-down)-\@ref(fig:static-cav-drop-down))**: Each individual caveat box displays the FishPath question with the user’s answer in grey text, followed by caveat text related to the use of the option in the fishery in the context of that particular question response. The color of each box reflects the caveat color (see caveat descriptions above): cautionary caveats shaded yellow, orange or red; positive attributes shaded green; and static caveats shaded in turquoise.
 
 ```{r cav-drop-down, echo=FALSE, fig.cap='Example caveat drop-down menu with details for an option for which questionnaire responses invoked 8 cautionary caveats (2 orange, 6 yellow, as shown at the top right corner of the drop-down menu).', fig.align='center', out.width='75%', fig.show='hold'}
 knitr::include_graphics('images/cav-drop-down.png')
@@ -111,7 +111,7 @@ knitr::include_graphics('images/static-cav-drop-down.png')
 
 The “Filters and Sorting” functionality allows the user to arrange and view the options in different ways. This does not affect the results or shortlisting of options; it is merely a means to organize and display the results. All three sections have the same filter and sorting functions. The Assessment section has an additional option to select between two categories to sort and display: “Output-Based Category” (i.e., according to the general type of output generated by the assessment method or option); or “Input-Based Category” (i.e., according to the main form of input required by the assessment or option). 
 
-After clicking “Filters and Sorting”, a pop-up box (\@ref(fig:filter-and-sorting)) appears with the ability to sort the options by: 
+After clicking “Filters and Sorting”, a pop-up box (Figure \@ref(fig:filter-and-sorting)) appears with the ability to sort the options by: 
 
 -	**Default Order:** The default sort is to list all options that did not meet minimum criteria at the bottom (automatically greyed out as hidden options), with the options for which the highest number of cautionary caveats were invoked at the top for review.
 -	**Customized Sort Order:** This maintains the current sort order but allows users to return to the results table and “drag and drop” options into the preferred order. 
@@ -129,16 +129,16 @@ knitr::include_graphics(c('images/filter-and-sorting-assessment.png', 'images/fi
 If the user scrolls to the bottom of the results screen (below results table), they are provided with a summary list of the questions bookmarked by the user, together with a list of “Influential Answers ”, and, finally, a “See All Answers” link. 
 
 ### Flagged Questions
-All questions that were “bookmarked” during the questionnaire will be listed here (\@ref(fig:flagged-questions)). Users can select each question to get a detailed list of all caveats invoked or criteria not met based on the response.  Users can also select each question to change the answer, add notes, or remove bookmark. It is highly recommended to review these questions and invoked caveats so that users can update their response or provide more detailed notes on the response, based on seeing how the response impacts results.
+All questions that were “bookmarked” during the questionnaire will be listed here (Figure \@ref(fig:flagged-questions)). Users can select each question to get a detailed list of all caveats invoked or criteria not met based on the response.  Users can also select each question to change the answer, add notes, or remove bookmark. It is highly recommended to review these questions and invoked caveats so that users can update their response or provide more detailed notes on the response, based on seeing how the response impacts results.
 
 ```{r flagged-questions, echo=FALSE, fig.cap='List of flagged questions.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/flagged-questions.png')
 ```
 
 ### Influential Answers
-The “Influential Answers” list is a summary of the questions and user responses that invoked the most eliminating criteria (by number), together with the number of caveats and criteria invoked, by assigned traffic light color (\@ref(fig:influential-answers)). The caveats invoked by the question are displayed (color strength and number) to its left. 
+The “Influential Answers” list is a summary of the questions and user responses that invoked the most eliminating criteria (by number), together with the number of caveats and criteria invoked, by assigned traffic light color (Figure \@ref(fig:influential-answers)). The caveats invoked by the question are displayed (color strength and number) to its left. 
 
-It is recommended to review this list prior to entering the results narrowing process (described below), to better understand some of the key challenges facing the fishery. Users can select any question on this list to change an answer, add notes to the question, and see a list of all impacted options and their associated caveats (\@ref(fig:influential-answers-expanded)).
+It is recommended to review this list prior to entering the results narrowing process (described below), to better understand some of the key challenges facing the fishery. Users can select any question on this list to change an answer, add notes to the question, and see a list of all impacted options and their associated caveats (Figure \@ref(fig:influential-answers-expanded)).
 
 ```{r influential-answers, echo=FALSE, fig.cap='List of influential answers.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/influential-answers.png')
@@ -159,7 +159,7 @@ First, the user accesses the Results Narrowing process by selecting the “Revie
 
 **<TODO: Add link to fig 13>**
 
-After clicking on “Review Top Options”, the user is directed to a step-wise results review process (\@ref(fig:results-review)). Each step of the results review process contains an “Instructions” box with clear steps, as well as the ability to access different steps of the results review process through “Back”, “Exit Review” and “Next Step” (\@ref(fig:results-review)). Across the top of the page, the user views steps in the process:
+After clicking on “Review Top Options”, the user is directed to a step-wise results review process (Figure \@ref(fig:results-review)). Each step of the results review process contains an “Instructions” box with clear steps, as well as the ability to access different steps of the results review process through “Back”, “Exit Review” and “Next Step” (Figure \@ref(fig:results-review)). Across the top of the page, the user views steps in the process:
 
 ```{r results-review, echo=FALSE, fig.cap='Overview of the FishPath Tool results screen and results review process.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/results-review.png')
@@ -167,19 +167,19 @@ knitr::include_graphics('images/results-review.png')
 
 The narrowing process (done as a group exercise or by independent users), consists of the following major steps:
 
-1.	**Option Retention (\@ref(fig:review-step-1)):** The goal of the first step is to hide all options that are clearly not viable for the fishery due to failure to meet minimum criteria, logistical, political, or other major reasons. Users should carefully review the list to hide these options, as well as un-hide options that they want to reinstate. Specific instructions are included on the screen in this step of the process, including questions to consider as narrowing the list.
+1.	**Option Retention (Figure \@ref(fig:review-step-1)):** The goal of the first step is to hide all options that are clearly not viable for the fishery due to failure to meet minimum criteria, logistical, political, or other major reasons. Users should carefully review the list to hide these options, as well as un-hide options that they want to reinstate. Specific instructions are included on the screen in this step of the process, including questions to consider as narrowing the list.
 
 ```{r review-step-1, echo=FALSE, fig.cap='Step 1, Option Retention, in the results review process.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/review-step-1.png')
 ```
 
-2.	**Identification of Top Options (\@ref(fig:review-step-2)):** In this step, users review each remaining option to identify a short list of starred options that will be seriously considered and explored in more detail. Users should familiarize themselves with the sorting feature and the influential answer list (see above) to facilitate this process. When comparing options, users should compare the number of cautionary caveats and criteria, their relative strength, and the ratio of cautionary caveats to positive attribute caveats. Specific instructions are included on the screen in this step of the process.
+2.	**Identification of Top Options (Figure \@ref(fig:review-step-2)):** In this step, users review each remaining option to identify a short list of starred options that will be seriously considered and explored in more detail. Users should familiarize themselves with the sorting feature and the influential answer list (see above) to facilitate this process. When comparing options, users should compare the number of cautionary caveats and criteria, their relative strength, and the ratio of cautionary caveats to positive attribute caveats. Specific instructions are included on the screen in this step of the process.
 
 ```{r review-step-2, echo=FALSE, fig.cap='Step 2, Identification of Top Options, in the results review process.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/review-step-2.png')
 ```
 
-3.	**Critical Evaluation of Top Options (\@ref(fig:review-step-3)):** In the final step, users can more critically evaluate the top options by considering each criterion and caveat in complete detail, and, potentially, ranking the options in order of potential. To facilitate this process, users can export a report that lists the top options and all of their details. 
+3.	**Critical Evaluation of Top Options (Figure \@ref(fig:review-step-3)):** In the final step, users can more critically evaluate the top options by considering each criterion and caveat in complete detail, and, potentially, ranking the options in order of potential. To facilitate this process, users can export a report that lists the top options and all of their details. 
 
 ```{r review-step-3, echo=FALSE, fig.cap='Step 3, Critical Evaluation of Top Options, in the results review process.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/review-step-3.png')
