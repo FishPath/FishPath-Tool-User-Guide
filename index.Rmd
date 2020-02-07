@@ -20,6 +20,6 @@ fontsize: 11pt
 
 #   {-}
 
-```{r logo, echo=FALSE, fig.align='center', out.width='40%', fig.show='hold'}
-knitr::include_graphics('images/fishpath-tnc-vertical.svg')
+```{r logo, echo=FALSE, fig.align='center', out.width='75%', fig.show='hold'}
+knitr::include_graphics('images/fp-noaa-logos.png')
 ```
