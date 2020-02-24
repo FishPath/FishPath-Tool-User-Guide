@@ -21,5 +21,5 @@ fontsize: 11pt
 #   {-}
 
 ```{r logo, echo=FALSE, fig.align='center', out.width='75%', fig.show='hold'}
-knitr::include_graphics('images/fp-noaa-logos.png')
+knitr::include_graphics('images/3-logos.png')
 ```
