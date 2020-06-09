@@ -1,6 +1,6 @@
 # FishPath Tool Questionnaire
 
-The goal of the FishPath tool questionnaire is to elicit information about all aspects of the fishery. This information leads to the activation of assumptions, cautions and considerations for each option. Across the three sections (Data Collection, Assessment, and Management Measures) the user answers a series of ~110 questions. Questions are categorized in 6 categories, which indicate the nature of the information in the question:
+The goal of the FishPath tool questionnaire is to elicit information about all aspects of the fishery. This information leads to the activation of assumptions, cautions and considerations for each option. Across the three sections (Data Collection, Assessment, and Management Measures) the user answers a series of ~120 questions. Questions are categorized in 6 categories, which indicate the nature of the information in the question:
 
 1. Biology/Life History
 2. Data Availability
@@ -33,7 +33,7 @@ knitr::include_graphics('images/ex-crit-question.png')
 ## Anatomy of a FishPath Tool Question
 (Figure \@ref(fig:question-anatomy)) provides an example of a FishPath question screen:
 
-1.	At the top of the screen  , the **section** is shown (either Data Collection, Assessments, or Management Measures). 
+1.	At the top of the screen, the **section** is shown (either Data Collection, Assessments, or Management Measures). 
 2.	The section is followed by the **question category** (i.e., Biology/Life History, Data Availability, Governance, Management, Operational Characteristics, or Socio-Economic). 
 3.	A sub-heading identifies whether the question is a **“criteria” or a “caveat”** question.
 4.	The sub-heading also indicates the **number of questions answered** and remaining within that section. 
@@ -54,7 +54,7 @@ knitr::include_graphics('images/bookmark-notes.png')
 
 While the majority of questions within FishPath are intended to be answered definitively (objective), certain questions are subjective in nature. The latter typically request a user response in the form of a perceived ranking (e.g. “low”, “moderate”, “high”). Most such questions invoke caveats and, when all caveats are considered together, the relative impact of those invoked by subjective questions can be evaluated. In this way, priority can be assigned to whether the response requires further consideration and debate, or whether it is of little relative significance in determining the most viable harvest strategy options. Further discussion can then be focused on the most appropriate issues.
 
-Generally, the best approach to take when completing the questionnaire is to aim to do so relatively efficiently, without overtly laboring or debating over any one question. If in doubt, the question can be bookmarked, and notes can be taken, for easy revisiting later. The transparency of the FishPath tool is such that users will be able to see explicitly how their response to any one question influences the results (by invoking criteria or caveats), and to readily change their answer if so desired   . Moreover, the aim of the questionnaire is to obtain an overall profile of the fishery’s characteristics, so as best to inform the choice of harvest strategy option. As such, questions may pertain to only a few options, or they may not invoke strong caveats. The goal is to appraise the fishery as a whole, as opposed to myopically focusing on any single question.
+Generally, the best approach to take when completing the questionnaire is to aim to do so relatively efficiently, without overtly laboring or debating over any one question. If in doubt, the question can be bookmarked, and notes can be taken, for easy revisiting later. The transparency of the FishPath tool is such that users will be able to see explicitly how their response to any one question influences the results (by invoking criteria or caveats), and to readily change their answer if so desired. Moreover, the aim of the questionnaire is to obtain an overall profile of the fishery’s characteristics, so as best to inform the choice of harvest strategy option. As such, questions may pertain to only a few options, or they may not invoke strong caveats. The goal is to appraise the fishery as a whole, as opposed to focusing on any single question.
 
 ## Completing the Questionnaire
 Upon completing or exiting any of the three sections, a summary screen appears with the status of relative completion. Users review their result for completed sections, or otherwise continue the questionnaire (Figure \@ref(fig:summary-screen)). 

@@ -9,7 +9,7 @@ output:
   word_document: default
 description: ''
 documentclass: book
-link-citations: yes
+link-citations: true
 bibliography:
 - book.bib
 - packages.bib

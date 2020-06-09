@@ -1,8 +1,10 @@
 bookdown::gitbook:
   css: style.css
   split_by: chapter
+  number_sections: false
   config:
     toc:
+      collapse: section
       before: |
         <li><a href="./">FishPath Tool User Guide</a></li>
       after: |
@@ -15,3 +17,5 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: default
+bookdown::word_document2: default
+  
