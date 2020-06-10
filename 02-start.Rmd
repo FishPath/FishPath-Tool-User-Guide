@@ -43,7 +43,7 @@ After creating an account (new user) or logging in (existing user), the user is 
 1. **“FishPath Tool User Guide”**, which contains detail on using the FishPath Tool and interpreting results. 
 2. **“My Fisheries”**, which provides a list of the user’s current list of fisheries they have started or completed in the tool. Users may access their fisheries at any time through this section, and return to in-progress FishPath questionnaires or results pages; 
 3. **“Reference Materials”**, which provides a list of all options contained in the FishPath tool with details and reference materials;
-4. **“Help us improve the FishPath Tool”**, which allows the user to send feedback to the FishPath team. 
+4. **“Get Support, Ask a Question, or Help us Improve the FishPath Tool”**, which allows the user to send questions or feedback to the FishPath team. 
 
 ```{r dashboard, echo=FALSE, fig.cap='FishPath Tool Dashboard, or the homepage for FishPath tool users. The pop out shows the FishPath Tool Dashboard drop-down menu.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/user-dashboard.png')
