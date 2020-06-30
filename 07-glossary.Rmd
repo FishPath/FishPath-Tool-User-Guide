@@ -1,0 +1,358 @@
+# Glossary
+
+(ref:NOAACite) [Blackhart, K., Stanton, D. G., & Shimada, A. M. (2006). _NOAA fisheries glossary._ United States Department of Commerce, National Oceanic and Atmospheric Administration.](https://repository.library.noaa.gov/view/noaa/12856)
+
+(ref:FAO) [FAO Term Portal - Fisheries](http://www.fao.org/fishery/glossary/en)
+
+Note: The (ref:FAO) has some of the definitions in multiple languages.
+
+### Absolute Abundance 
+The total number of a kind of ﬁsh in a population; this is rarely known, and usually estimated from the relative abundance.
+
+<font size="2">Source: (ref:NOAACite)</font>
+
+
+### B0 (Virgin Biomass)
+"B0", or virgin biomass, refers to the average biomass of a stock that has yet not been fished. It is generally calculated as the long-term average biomass value expected in the absence of fishing mortality. In production models, B0 is also known as carrying capacity. It is often used as a reference value to assist the relative health of a stock, monitoring changes in the ratio between current and virgin biomass (B/B0).
+
+<font size="2">Source: Restrepo V. (1999): Annotated Glossary of Terms in Executive Summary Reports of the International Commission for the Conservation of Atlantic Tunas' Standing Committee on Research and Statistics (SCRS), _ICCAT_.
+
+via (ref:FAO)</font>
+
+### Bias 
+An effect which deprives a statistical result of representativeness by systematically distorting it, as distinct from a random error which may distort on any one occasion but balances out on the average.
+
+<font size="2">Source: [OECD Glossary](https://stats.oecd.org/glossary/detail.asp?ID=3605)</font>
+
+### Biological Overfishing 
+Catching such a high proportion of one or all age classes in a fishery as to reduce yields and drive stock biomass, and spawning potential below safe levels. Can involve both growth overfishing and recruitment overfishing. With reference to a surplus production model, biological overfishing occurs when fishing levels are higher that those required for extracting the maximum sustainable yield (MSY) of a resource.
+
+<font size="2">Source: Garcia, S.M. (Comp.). 2009. Glossary. In Cochrane, K. and S.M. Garcia. (Eds). _A fishery manager's guidebook_. FAO and Wiley-Blackwell:473-505.
+
+via (ref:FAO)</font>
+
+### Boom and Bust Population Cycle
+Species that follow boom-and-bust cycles display high volatility in their population dynamics. This means that their availability is sudden, extreme, and unpredictable.
+
+<font size="2">Source: FishPath Team</font>
+
+### Bycatch 
+Species that follow boom-and-bust cycles display high volatility in their population dynamics. This means that their availability is sudden, extreme, and unpredictable.
+
+<font size="2">Source: Modified from FAO (1998): Guidelines for the routine collection of capture fishery data
+
+via (ref:FAO)</font>
+
+### Carrying Capacity 
+The maximum population of a species that a specific ecosystem can support indefinitely without deterioration of the character and quality of the resource. It represents the point of balance between reproduction potential and environmental constraints.
+
+<font size="2"> Source: Scialabba N. (ed.), 1998. _Integrated Coastal Area Management and Agriculture, Forestry and Fisheries_. FAO Guidelines, 256p.
+
+via (ref:FAO)</font>
+
+### Catch-Per-Unit-Effort (CPUE)
+Catch-per-unit-effort (CPUE) is the quantity of fish caught (in number or in weight) with one standard unit of fishing effort; e.g. number of fish taken per 1,000 hooks per day or weight of fish, in tons, taken per hour of trawling. CPUE is often considered an index of fish biomass (or abundance). CPUE is sometimes referred to as catch rate, and may be used as a measure of economic efficiency of fishing as well as an index of fish abundance.
+
+<font size="2">Source: Modified from FAO (1998a): Guidelines for the routine collection of capture fishery data. _FAO Fisheries Technical Paper._ No. 382. Rome, FAO. 113p.
+
+via (ref:FAO)</font>
+
+### Decision Rule
+See [Harvest Control Rule (HCR)]
+
+### Determinate Growth
+Determinate growth means that the species does not grow indefinitely. The species stops growing once reaching a final adult stage.
+
+<font size="2">Source: FishPath Team</font>
+
+### Economic Overfishing
+Occurs when a fishery is generating no economic rent, primarily because an excessive level of fishing effort is applied in the fishery and does not always imply biological overfishing.
+
+<font size="2">Source: FAO Fisheries and Aquaculture Department, FAO, 2014.
+
+via (ref:FAO)</font>
+
+### Ecosystem Overfishing
+Occurs when the historical species balance (composition and dominance) is significantly modified by fishing (e.g. with reductions of large, long-lived, demersal predators and increases of small, short-lived species at lower trophic levels).
+
+<font size="2">Source: FAO Fisheries and Aquaculture Department, FAO, 2014.
+
+via (ref:FAO)</font>
+
+### Effort Creep
+Effort creep refers to an increase in effort effectiveness owing to technological progress. These progressions increase the productivity of fishing power, therefore increasing the effective effort. For example, although the number of vessels may be regulated, an increasing number of hooks per vessel or increasing vessel fuel efficiency may demonstrate effort creep.
+
+<font size="2">Source: Squires, Dale, et al. "Effort rights in fisheries management: general principles and case studies from around the world." _Effort rights in fisheries management: General principles and case studies from around the world_. Food and Agriculture Organization of the United Nations, 2016.</font>
+
+### Equilibrium
+In population ecology, equilibrium refers to a state of balance.
+
+<font size="2">Source: FishPath Team</font>
+
+### Fecundity
+Fecundity is the potential reproductive capacity of an organism or population expressed in the number of eggs (or offspring) produced during each reproductive cycle. Fecundity usually increases with age and size.
+
+<font size="2">Source: (ref:NOAACite)</font>
+
+### Fishery
+A unit determined by an authority or other entity that is engaged in raising and/or harvesting fish. Typically, the unit is defined in terms of some or all of the following: people involved, species or type of fish, area of water or seabed, method of fishing, class of boats and purpose of the activities.
+
+<font size="2">Source: Fletcher, W.J., Chesson, J. Fisher, M., Sainsbury K.J., Hundloe, T. Smith A.D.M., and B. Whitworth (2002): National ESD reporting framework for Australian fisheries: The "How To" guide for wild capture fisheries. FRDC Project 2000/145. Canberra, Australia
+
+via (ref:FAO)</font>
+
+### Fishery-Dependent Data
+Data collected directly on a fish or fishery from commercial or sport fishermen and seafood dealers. Common methods include logbooks, trip tickets, port sampling, fishery observers, and phone surveys.
+
+<font size="2">Source: (ref:NOAACite)</font>
+
+### Fishery-Independent Data
+Characteristic of information (e.g. stock abundance index) or an activity (e.g. research vessel survey) obtained or undertaken independently of the activity of the ﬁshing sector. Intended to avoid the biases inherent to ﬁshery-related data.
+
+<font size="2">Source: (ref:NOAACite)</font>
+
+### Fishery Effort
+The amount of fishing gear of a specific type used on the fishing grounds over a given unit of time for example hours trawled per day, number of hooks set per day or number of hauls of a beach seine per day. When two or more kinds of gear are used, the respective efforts must be adjusted to some standard type before being added.
+
+<font size="2">Source: FAO. 1997. _Fisheries management_. FAO Technical Guidelines for Responsible Fisheries No. 4. Rome, FAO. 82p.
+
+via (ref:FAO)</font>
+
+### Fishing Mortality (F)
+The instantaneous rate of fish deaths due to fishing a component of the fish stock. F reference points may be applied to entire stocks or segments of the stocks.
+
+<font size="2">Source: https://www.fish.gov.au/about/glossary</font>
+
+### Growth Overfishing
+Occurs when too many small fish are being harvested too early, through excessive fishing effort and poor selectivity (e.g. too small mesh sizes) and the fish are not given enough time to grow to the size at which the maximum yield-per-recruit from the stock would be obtained. A reduction of fishing mortality on juveniles, or their outright protection, would lead to an increase in yield from the fishery. Growth overfishing, by itself, does not affect the ability of a fish population to replace itself.
+
+<font size="2">Source: FAO Fisheries and Aquaculture Department, FAO, 2014.
+
+via (ref:FAO)</font>
+
+### Harvest Control Rule (HCR)
+Also "decision rule". A formally defined, usually quantitative rule, that is used to adjust a management measure in reponse to some known or inferred status of the fished stock. The strength of adjustment of the management measure is usually some function of a performance measure - that is, the proximity of a performance indicator to a target or limit reference point.
+
+<font size='2'>Source: FishPath Team</font>
+
+### Harvest Strategy
+Also "management strategy". A harvest (or management) strategy is a formal, pre-specified set of rules designed to achieve the management objectives for the fishery. Harvest strategies (HSs) are formal frameworks for managing exploitation of fisheries, usually applied to the target species (e.g. Sainsbury et al. 2000, Butterworth and Punt 2003). They comprise a fully-specified set of rules for making tactical management decisions including specifications for i) a monitoring (data collection) program, ii) the indicators to be calculated from monitoring data (usually via a stock assessment) and iii) the use of those indicators and their associated reference points in management decisions, through application of decision (or control) rules.
+
+<font size='2'> Sources: Butterworth, D.S., and Punt, A.E. 2003. The role of harvest control laws, risk and uncertainty and the precautionary approach in ecosystem-based management. _Responsible Fisheries in the Marine Ecosystem_: 311-319. 
+
+Sainsbury, K.J., Punt, A.E., and Smith, A.D.M. 2000. Design of operational management strategies
+for achieving fishery ecosystem objectives. _ICES Journal of Marine Science_ 57: 731-741.</font>
+
+### Illegal, unregulated, and unreported (IUU) Fishing
+Reference to broad activities classified as illegal, unreported and unregulated fishing are included in the IPOA-IUU as follows:
+
+_Illegal fishing_: 
+
+-conducted by national or foreign vessels in waters under the jurisdiction of a State, without the permission of that State, or in contravention of its laws and regulations;
+-conducted by vessels flying the flag of States that are parties to a relevant regional fisheries management organisation but operate in contravention of the conservation and management measures adopted by that organisation and by which the States are bound, or relevant provisions of the applicable international law; or
+-in violation of national laws or international obligations, including those undertaken by cooperating States to a relevant regional fisheries management organization.
+
+_Unreported fishing_: 
+
+-which have not been reported, or have been misreported, to the relevant national authority, in contravention of national laws and regulations; or
+-are undertaken in the area of competence of a relevant regional fisheries management organisation which have not been reported or have been misreported, in contravention of the reporting procedures of that organisation.
+
+_Unregulated fishing_: 
+
+-in the area of application of a relevant regional fisheries management organization that are conducted by vessels without nationality, or by those flying the flag of a State not party to that organization, or by a fishing entity, in a manner that is not consistent with or contravenes the conservation and management measures of that organization; or
+-in areas or for fish stocks in relation to which there are no applicable conservation or management measures and where such fishing activities are conducted in a manner inconsistent with State responsibilities for the conservation of living marine resources under international law.
+
+<font size="2">Source: http://www.fao.org/iuu-fishing/background/what-is-iuu-fishing/en/</font>
+
+### Indicators
+A variable, pointer, or index. Its fluctuation reveals the variations in key elements of a system. The position and trend of the indicator in relation to reference points or values indicate the present state and dynamics of the system. Indicators provide a bridge between objectives and action.
+
+<font size="2">Source: FAO (1999): Indicators for sustainable development of marine capture fisheries. _FAO Technical Guidelines for Responsible Fisheries_, 8: 68 p. Rome, FAO
+
+via (ref:FAO)</font>
+
+### Intrinsic growth rate (r)
+A value that quantifies how much a population can grow between successive time periods. The intrinsic growth rate is often estimated with production models and plays an important role in evaluating the sustainability of different harvest levels and the capacity to recover after depletion.
+
+<font size="2">Source: Restrepo V. (1999): Annotated Glossary of Terms in Executive Summary Reports of the International Commission for the Conservation of Atlantic Tunas Standing Committee on Research and Statistics (SCRS). _ICCAT_.
+
+via (ref:FAO)</font>
+
+### Latent effort
+Fishing capacity that is authorised for use but not currently being used. Depending on how a fishery is managed, latency might appear in effort (for example, unused vessel statutory fishing rights [SFRs], gear SFRs, quota SFRs, permits or nights fishing) or in quota (for example, where total allowable catches [TACs] are not fully caught in a quota-managed fishery). It can be an indicator of fishers’ views about the profitability of a fishery, with high levels of latency suggesting that low expected profits in the fishery do not justify fishing.
+
+<font size="2">Source: https://www.fish.gov.au/about/glossary</font>
+
+### Length-weight relationship
+A mathematical formula for calculating the weight of a ﬁ sh in terms of its length. When only one is known, the formula can determine the other
+
+<font size="2">Source: (ref:NOAACite)</font>
+
+### Limit reference point
+Indicates the limit beyond which the state of a fishery and / or a resource is not considered desirable. Fishery development should be stopped before reaching it. If a LRP is inadvertently reached, management action should severely curtail or stop fishery development, as appropriate, and corrective action should be taken.
+
+<font size="2">Source: Garcia S.M. (1996)The precautionary approach to fisheries and its implications for fishery research, technology and management: An updated review. _FAO Fisheries Technical Paper_, 350.2: 1-76
+
+via (ref:FAO)</font>
+
+### Management Strategy
+See [Harvest Strategy]
+
+### Maturity ogive
+The curve resulting from the proportion of mature fish at a given size or length.
+
+<font size="2">Source: FishPath Team</font>
+
+### Maximum sustainable yield (MSY)
+The highest theoretical equilibrium yield that can be continuously taken (on average) from a stock under existing (average) environmental conditions without affecting significantly the reproduction process.
+
+<font size="2">Source: FAO Fisheries and Aquaculture Department, FAO, 2014.
+
+via (ref:FAO)</font>
+
+### Multispecies fishery
+A multispecies fishery is a fishery in which more than one species is caught at the same time. Because of the imperfect selectivity of most fi shing gears, most fisheries are “multispecies.” The term is often used to refer to fisheries where more than one species is intentially sought and retained.
+
+<font size="2">Source: (ref:NOAACite)</font>
+
+### Natural mortality (M)
+Deaths of fish from all causes except fishing (e.g. ageing, predation , cannibalism, disease and perhaps increasingly pollution). It is often expressed as a rate that indicates the percentage of fish dying in a year; for example a natural mortality rate of 0.2 implies that approximately 20% of the population will die in a year from causes other than fishing.
+
+<font size="2">Source: FAO Fisheries and Aquaculture Department, FAO, 2014.
+
+via (ref:FAO)</font>
+
+### No-take reserve
+Areas where extractive activities are prohibited
+
+<font size="2">Sala, E., and Giakoumi, S. 2017. No-take marine reserves are the most effective protected areas in the ocean. – ICES Journal of Marine Science, 75: 1166–1168.</font>
+
+### Nursery grounds
+Nursery grounds refers to the part of a fish’s or animal’s habitat where the young develop and grow.
+
+<font size="2">Source: (ref:NOAACite)</font>
+
+### Open Access
+Any fishery that does not limit effort or inclusion in the fishery. A fishery without permits or one with unlimited permits are both examples of an open access fishery.
+
+<font size='2'>Source: FishPath Team</font>
+
+### Overfished
+A stock is considered overfished when exploited beyond an explicit limit beyond which its abundance is considered "too low" to ensure safe reproduction. In many fisheries fora the term is used when biomass has been estimated to be below a limit biological reference point that is used as the signpost defining an "overfished condition".
+
+<font size='2'>Source: Mace, P.M. 1998. The status of ICCAT species relative to optimum yield and overfishing criteria recently proposed in the United States, also with consideration of the precautionary approach. _ICCAT_ SCRS/97/074.
+
+via (ref:FAO)</font>
+
+### Overfishing
+A generic term used to refer to the state of a stock subject to a level of fishing effort or fishing mortality such that a reduction of effort would, in the medium term, lead to an increase in the total catch. Often referred to as overexploitation and equated to biological overfishing, it results from a combination of growth overfishing and recruitment overfishing and occurs often together with ecosystem overfishing and economic overfishing.
+
+<font size='2'>Source: Garcia, S.M. (Comp.). 2009. Glossary. In Cochrane, K. and S.M. Garcia. (Eds). _A fishery manager's guidebook_. FAO and Wiley-Blackwell:473-505.
+
+via (ref:FAO)</font>
+
+### Periodic strategist
+Periodic strategists are characterized by large body size, late maturation, high fecundity, and low juvenile survivorship and are likely to be favored in highly periodic (seasonal) environments
+
+<font size='2'>Source: Mims, M.C. and Olden, J.D., 2012. Life history theory predicts fish assemblage response to hydrologic regimes. _Ecology_, 93(1), pp.35-45.</font>
+
+### Recruitment
+The number of fish added to the exploitable stock, in the fishing area, each year, through a process of growth (i.e. the fish grows to a size where it becomes catchable) or migration (i.e. the fish moves into the fishing area).
+
+<font size='2'>Source: Garcia, S.M. (Comp.). 2009. Glossary. In Cochrane, K. and S.M. Garcia. (Eds). _A fishery manager's guidebook_. FAO and Wiley-Blackwell:473-505.
+
+via (ref:FAO)</font>
+
+### Recruitment Overfishing
+A situation in which the rate of fishing is (or has been) such that annual recruitment to the exploitable stock has become significantly reduced. The situation is characterized by a greatly reduced spawning stock, a decreasing proportion of older fish in the catch, and generally very low recruitment year after year. If prolonged, recruitment overfishing can lead to stock collapse, particularly under unfavourable environmental conditions.
+
+<font size='2'>Source: Restrepo, V. 1999. Annotated Glossary of Terms in Executive Summary Reports of the International Commission for the Conservation of Atlantic Tunas Standing Committee on Research and Statistics SCRS). _ICCAT_, Madrid, Spain.
+
+via (ref:FAO)</font>
+
+### Reference Points
+An estimated value derived from an agreed scientific procedure and/or model, which corresponds to a specific state of the resource and of the fishery, and that can be used as a guide for fisheries management. Reference points may be general (applicable to many stocks) or stock-specific.
+
+<font size='2'>Source: Garcia, S.M. 1997. Indicators for sustainable development in fisheries. In: FAO (1997). _Land Quality indicators and their use in sustainable agriculture and rural development_, 131-162.
+
+via (ref:FAO)</font>
+
+### Relative abundance
+Relative abundance is an estimate of actual or absolute abundance; usually stated as some kind of index; for example, as bottom trawl survey stratiﬁed mean catch per tow.
+
+<font size='2'>Source: (ref:NOAACite)</font>
+
+### Removals
+All of the fish "removed" from a stock by fishing, including the catch and any fish killed but not caught
+
+<font size="2">Source: Gough, J. and T. Kenchington (1995), A Glossary of Fisheries Science. Communications Branch, DFO, Nova Scotia
+
+via (ref:FAO)</font>
+
+### Sector/Fleet 
+A physical group of vessels and/or fishers sharing similar characteristics in terms of technical features and/or major activity
+
+<font size="2">Source: https://www.ices.dk/community/Documents/Advice/Acronyms_and_terminology.pdf</font>
+
+### Selectivity
+Ability to target and capture fish by size and species during harvesting operations, allowing by-catch of juvenile fish and non-target species to escape unharmed. In stock assessment, conventionally expressed as a relationship between retention and size (or age) with no reference to survival after escapement.
+
+<font size='2'>Source: Garcia, S.M. (Comp.). 2009. Glossary. In Cochrane, K. and S.M. Garcia. (Eds). _A fishery manager's guidebook_. FAO and Wiley-Blackwell:473-505.
+
+via (ref:FAO)</font>
+
+### Sessile
+Attached to the substrate
+
+<font size='2'>Source: FAO Fisheries and Aquaculture Department, FAO, 2014.
+
+via (ref:FAO)</font>
+
+### Steepness
+Stock recruitment steepness is a measure of fish productivity. It is used in the stock-recruitment function, the relationship between the stock's adult spawning biomass and the corresponding production of young fish (recruitment). Steepness is the ratio of 2 recruitment levels: the recruitment obtained when the spawning stock is at 20% of its virgin level, and the recruitment at the virgin population level (e.g. the population in the absence of fishing). The higher the steepness, the more resilient the population is, the more robust the stock is to harvesting, and the sooner the stock is likely to rebuild after fishing pressure is relaxed.
+
+<font size='2'>Source: https://www.pifsc.noaa.gov/qrb/2011_06/article_08.php</font>
+
+### Stock
+
+A group of individuals in a species occupying a well defined spatial range independent of other stocks of the same species. Random dispersal and directed migrations due to seasonal or reproductive activity can occur. Such a group can be regarded as an entity for management or assessment purposes. Some species form a single stock (e.g. southern bluefin tuna) while others are composed of several stocks (e.g. albacore tuna in the Pacific Ocean comprises separate Northern and Southern stocks). The impact of fishing on a species cannot be determined without knowledge of this stock structure.
+
+In theory, a Unit Stock comprises all the individuals of fish in an area, which are part of the same reproductive process. It is self-contained, with no emigration or immigration of individuals from or to the stock. On practical grounds, however, a fraction of the unit stock is considered a ""stock"" for management purposes (or a management unit), as long as the results of the assessments and management remain close enough to what they would be on the unit stock.
+
+<font size="2">Source: Comonwealth of Australia (1997): http://www.brs.gov.au/fish/gloss.html
+
+via (ref:FAO)</font>
+
+### Stock Abundance
+Degree of plentifulness. The total number of fish in a population or on a fishing ground. Can be measured in absolute or relative terms.
+
+<font size='2'>Source: FAO Fisheries and Aquaculture Department, FAO, 2014.
+
+via (ref:FAO)</font>
+
+### Stock Status
+Relative level of a fish stock to its unfished biomass 
+
+<font size='2'>Source: FishPath Team</font>
+
+### Target reference point
+Corresponds to a state of a fishery and / or a resource which is considered desirable. Management action, whether during a fishery development or a stock rebuilding process should aim at bringing and maintaining the fishery system at this level.
+
+<font size='2'>Source: Garcia S.M. (1996)The precautionary approach to fisheries and its implications for fishery research, technology and management: An updated review. _FAO Fisheries Technical Paper_, 350.2: 1-76
+
+via (ref:FAO)</font>
+
+### Transboudary
+A stock of fish that move across management boundaries
+
+<font size="2">Source: FishPath Team</font>
+
+### Trigger reference point
+Trigger reference points (TRPs) are levels of an indicator, usually a stock status indicator, at which a change in management is considered or adopted. Trigger reference points play a particularly important role in harvest decision rules, where they identify a point (such as a biomass level) at which a substantial change in the exploitation rate occurs (Sloan et al. 2014). Trigger points can be used in two ways in harvest strategies. Where useful indicators have been identified, they are values of those indicators that correspond to some important change in how the fishery is managed (a change in the decision rule). The second use of trigger points is in fisheries where it has not been possible to identify useful indicators (Dichmont et al. 2011). These triggers would be levels of catch or effort that signal the need to collect more information on the fishery to allow the development of useful indicators.
+
+<font size='2'>Sources: Dichmont, C.M., Dowling, N.A., Smith, A.D.M., Smith, D.C., and Haddon, M. 2011. Guidelines on developing harvest strategies for data-poor fisheries. CSIRO Marine and Atmospheric Research, Hobart, Australia. 27pp
+
+Sloan, S., Smith, T., Gardner, C., Crosthwaite, K., Triantafillos, L., Jeffries, B. and Kimber, N. 2014. National guidelines to develop fishery harvest strategies. FRDC Report – Project 2010/061. Primary Industries and Regions, South Australia, Adelaide, March. CC BY 3.0</font>
+
+
+

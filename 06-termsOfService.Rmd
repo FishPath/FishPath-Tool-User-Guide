@@ -1,0 +1,91 @@
+# FishPath Tool Terms of Service {#terms} 
+
+**Last revised on October 23, 2018**
+
+
+The Nature Conservancy (“TNC,” “we,” “us,” or “our”) are pleased to provide FishPath and related software, data, websites, instructions, and services (“FishPath”) to you. If you are using FishPath on behalf of a business (such as your employer), that business accepts these terms of service (“Terms”) by your use. In that case, the words “You” and “Your” in these Terms refer to both you and that business.
+
+The Terms govern Your access to and use of FishPath, so please carefully read them and Our Privacy Policy before using FishPath. By registering on the FishPath websites and using FishPath, You agree to be bound by these Terms and by our Privacy Policy. If You don’t agree with these Terms and our Privacy Policy, You cannot use FishPath or FishPath data in any way or at any time.
+
+#### FishPath Data: Your Rights and Your Privacy{-}
+
+We developed FishPath as a user-friendly application to help users diagnose the challenges in their fishery and select appropriate options for data collection, stock assessment, and management measures. FishPath allows You to use Your fishery information (Your “Submission”). Your Submission to FishPath is voluntary. If You submit information to FishPath, these Terms do grant us the right to see and use Your Submission to improve the functionality of the tool as appropriate. We may copy and share an anonymized aggregation of information from submissions, potentially including Your Submission, with the public. However, we will not share Your submission nor Your information in any non aggregated format.
+
+Please refer to our [Privacy Policy](https://www.nature.org/en-us/about-us/who-we-are/accountability/privacy-policy/) for a description of how we collect, use and disclose FishPath information, including Your Submission. We have the right to withdraw or change FishPath. As we describe below, we will not be liable to You if for any reason all or any part of FishPath is unavailable at any time or for any length of time.
+
+#### Your Responsibilities{-}
+
+Only make a Submission if You have all necessary rights to share the information with us, including but not limited to use with FishPath. You are solely responsible for your conduct and Your Submission while using FishPath. It is Your responsibility to ensure that You have the rights or permission needed to comply with these Terms.
+
+Respect the law. Do not use FishPath for any fraudulent or unlawful purpose including violations of statutory, regulatory or contractual law. Respect copyright, privacy, trade secret, data protection, fish & wildlife and all other laws. Do not attempt to impersonate any other individual on FishPath; if You identify yourself, You must always use Your true identity.
+
+Without our express written consent, You may not use, display, mirror, or frame FishPath, any element within FishPath, or any proprietary elements belonging to us (including but not limited to our logos and marks). In addition to adhering to all applicable laws and regulations, You may NOT do any of the following:
+
+- resell FishPath or data from FishPath, or any portion thereof;
+- access or search the FishPath data by using any engine, software, tool, agent, device or mechanism (including spiders, robots, crawlers, data mining tools or the like) other than the software and/or search agents that We provide or authorize;
+- probe, scan, tamper with, or test the vulnerability of FishPath or any of our systems or networks;
+- avoid, breach, deactivate, impair, or circumvent any security or authentication measures, including those that protect FishPath and its data;
+- attempt to decipher, decompile, disassemble or reverse engineer any of the software used to provide FishPath;
+- interfere with, or attempt to interfere with, the access of any user, host or network, including, without limitation, by sending a virus, overloading, or flooding FishPath;
+- encourage or enable anyone else to do any of the foregoing.
+
+We have the right to investigate violations of these Terms or conduct that affect FishPath or our systems or networks. We may also consult and cooperate with law enforcement authorities to prosecute users who violate the law.
+
+#### Rights You Grant in Your Information{-}
+
+By making Your Submission, You grant us a non-exclusive, transferable, sublicensable, worldwide, perpetual, royalty-free license to use, copy, modify, create derivative works based upon, distribute, publicly display, publicly perform and distribute Your Submission. We will not, however, share or distribute specific notes You submit for Your fishery.
+
+#### Rights That We Grant You{-}
+
+Subject to Your compliance with these Terms, we grant You a limited, non-exclusive, non-transferable, non-sublicensable, worldwide, royalty-free license to use the FishPath software, instructions, and websites and to view, copy, display, and create derivative works from the FishPath output that we make available from the FishPath site for Your management of Your fishery.
+
+You may not: (i) copy, modify or create derivative works based on the FishPath software; (ii) distribute, transfer, sublicense, lease, or rent the FishPath software to any third party; or (iii) reverse engineer, decompile or disassemble the FishPath software.
+
+Using FishPath or uploading Data does not give You ownership of any intellectual property rights in FishPath (other than your own Submission). We and our licensors exclusively own all right, title and interest in and to FishPath, including all associated intellectual property rights. You acknowledge that copyright, trademark, and other laws of the United States and foreign countries protect FishPath. You agree not to remove, alter or obscure any copyright, trademark, service mark or other proprietary rights notices incorporated in or accompanying FishPath.
+
+These Terms do not grant You the right to use any of our branding or logos or names. You must not use our names or logos or branding without our written permission.
+
+#### Modifying our Terms of Service{-}
+
+We may update these Terms from time to time, in our sole discretion. We may notify You of such updates by any reasonable means, such as by posting the revised Terms on the FishPath website. Please look at the “LAST UPDATED” legend above to see when these Terms were last revised. Your use of FishPath after the posting of any revised Terms means that You accept and agree to be bound by the revised Terms. If You don’t agree to be bound by the revised Terms, then You may not use FishPath anymore. You can stop using FishPath at any time. We may also stop providing FishPath or add or create new limits to FishPath at any time.
+
+#### Disclaimers, Limited Liability and Indemnity{-}
+
+As we describe in more detail below, FishPath and its data are a general information resource and are provided solely “AS IS” and “AS AVAILABLE” without warranty of any kind. You should not construe publication of FishPath data as a warranty or guarantee of the quality or availability of any goods or services or technical support.
+
+
+#### DISCLAIMERS AND LIMITATION OF LIABILITY{-}
+
+ALL CONTENT ON FISHPATH IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED. WITHOUT LIMITING THE FOREGOING, WE EXPLICITLY DISCLAIM ANY AND ALL WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT, OR NON-INFRINGEMENT, AND ANY AND ALL WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF TRADE. TNC MAKES NO WARRANTY AS TO THE QUALITY, ACCURACY, COMPLETENESS, TIMELINESS, OR RELIABILITY OF FISHPATH OR ANY FISHPATH CONTENT. YOUR USE OF FISHPATH IS AT YOUR SOLE RISK.
+
+TNC MAKES NO REPRESENTATIONS OR WARRANTIES THAT YOUR USE OF FISHPATH WILL MEET YOUR NEEDS OR BE UNINTERRUPTED, SECURE, OR ERROR FREE. USERS ARE RESPONSIBLE FOR TAKING ALL NECESSARY PRECAUTIONS TO ENSURE THAT ANY CONTENT YOU MAY OBTAIN FROM THE SERVICES IS FREE OF VIRUSES OR OTHER HARMFUL CODE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR CREATING, PRODUCING, MAINTAINING, OPERATING, OR PROVIDING FISHPATH OR FISHPATH CONTENT, UNDER ANY THEORY BASED IN CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY, STRICT LIABILITY, OR OTHER LEGAL THEORY. THIS LIMITATION ON LIABILITY INCLUDES ANY AND ALL INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, LOSS OF DATA OR GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE OR SYSTEM FAILURE OR THE COST OF SUBSTITUTE SERVICES ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OR FROM THE USE OF OR INABILITY TO USE FISHPATH, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+THE ABOVE EXCLUSIONS AND LIMITATIONS OF DAMAGES ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN YOU AND US.
+
+#### Indemnity{-}
+
+You agree to release, indemnify, defend and hold harmless TNC, our subsidiaries and affiliates, and our and their respective officers, directors, agents, partners and employees, from and against any claims, disputes, demands, liabilities, damages, losses, and costs and expenses, including, without limitation, reasonable legal and accounting fees arising out of or in any way connected with (i) Your access to or use of FishPath, (ii) Your Submission, or (iii) Your violation of these Terms.
+
+#### Termination{-}
+
+We may terminate Your access to and use of FishPath, at our sole discretion, at any time and without notice to You. Upon any termination, discontinuation or cancellation of FishPath, all provisions of these Terms that by their nature should survive will survive. This includes, for example ownership provisions, warranty disclaimers, and limitations of liability.
+
+#### General Terms{-}
+
+These Terms are the entire and exclusive agreement between You and us regarding FishPath, and they supersede any prior agreements between You and us regarding FishPath.
+
+These terms do not create any third party beneficiary rights. You may not assign or transfer these Terms, by operation of law or otherwise, without our prior written consent. Subject to the foregoing, these Terms will bind your successors and permitted assigns. We may freely assign or transfer these Terms without restriction.
+
+If You do not comply with these Terms, and we do not take action right away, this does not mean that we are giving up any rights that we may have to take action in the future or seek all available remedies.
+
+If it turns out that a particular provision of these Terms is not fully valid or enforceable, that provision will be enforced to the maximum extent permissible, and this will not affect any other Terms.
+
+All claims arising out of this Agreement or relating to FishPath will be governed by the laws of the State of California, excluding the application of its conflicts of law rules. Any legal action or proceeding arising out of this Agreement or relating to these Services shall be brought exclusively in a state or federal court in or for San Francisco, California. You agree that any and all disputes, claims and causes of action arising out of, or connected with these Terms or Your Submission shall be resolved individually, without resort to any form of class action.
+
+ 
+
+
+
+
