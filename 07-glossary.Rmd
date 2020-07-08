@@ -43,7 +43,7 @@ Species that follow boom-and-bust cycles display high volatility in their popula
 
 via (ref:FAO)</font>
 
-### Carrying Capacity 
+### Carrying Capacity (K)
 The maximum population of a species that a specific ecosystem can support indefinitely without deterioration of the character and quality of the resource. It represents the point of balance between reproduction potential and environmental constraints.
 
 <font size="2"> Source: Scialabba N. (ed.), 1998. _Integrated Coastal Area Management and Agriculture, Forestry and Fisheries_. FAO Guidelines, 256p.
