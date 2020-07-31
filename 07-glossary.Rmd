@@ -43,6 +43,15 @@ Species that follow boom-and-bust cycles display high volatility in their popula
 
 via (ref:FAO)</font>
 
+### Capital Stuffing
+Costly investments in vessel or gear improvements, to outcompete others for a larger share of available fish. This often leads to higher levels of catch than those intended by managers.
+
+<font size="2">Source: Townsend, R. E. (1985). On capital-stuffing in regulated fisheries. _Land
+Economics, 61_(2), 195. https://doi.org/10.2307/3145812 
+
+via Anderson CM, Krigbaum MJ,
+Arostegui MC, et al. How commercial fishing effort is managed. _Fish Fish_. 2018;00:1–18. https://doi.org/10.1111/faf.12339</font>
+
 ### Carrying Capacity (K)
 The maximum population of a species that a specific ecosystem can support indefinitely without deterioration of the character and quality of the resource. It represents the point of balance between reproduction potential and environmental constraints.
 

@@ -74,7 +74,7 @@
 
 \title{FishPath Tool User Guide}
 \author{The Nature Conservancy}
-\date{Last updated: July 08, 2020}
+\date{Last updated: July 31, 2020}
 
 \begin{document}
 \maketitle
@@ -517,6 +517,20 @@ Figure \ref{fig:single-row} displays a single row from an example results table.
 \begin{itemize}
 \item
   \textbf{(Data) Category:} The Category column allows the user to view the options by categories. This column is different for each section. In the Data Collection Section, this column is titled ``Data Category'', showing the four categories of the type of data that may be collected (see also ``Data Collection Section Results'' above). In the Assessment Section, this column is titled either ``Input-Based Category'' or ``Output-Based Category'', reflecting two sorting options available for organizing the assessment option results. In the Management Measures Section, this column is simply titled ``Category'' and displays the categories of management measures.
+\item
+  \textbf{``Assessment Tier'' (Assessments Only)}: The availability of analytical methods increases as data and biological information increases. Thus more methods typically become available with more information. But some of the simpler approaches may also no longer be strong candidates for application in light of more data-driven methods. The ``assessment tier'' category is provided to help determine the general data and model complexity levels for each method. This is especially useful when choosing which methods to prioritize as it allows the user to identify the most data-driven methods rather than attempting to do all possible. A general recommendation is to initially consider or prioritize the highest ``tier'' methods available when choosing methods to implement, though this does not exclude adding other lower tiers methods if desired. Indeed, the user is encouraged to consider the trade-offs between research capacity and inherent data uncertainties associated with ``higher tier'' assessment, and the lower data requirements and required research capacity, yet reduced robustness, of the ``lower tier'' methods.
+
+  There are 5 ``assessment tiers'':
+
+  \emph{Pre-assessment -- Risk Analysis}: Methods in this ``tier'' identify species or groups of species that may be classed as ``at risk of harm'', and help prioritize which stocks should be focused on for further management. It is recommended to complete one risk analysis before conducting a FishPath questionnaire to hone understanding of which parts of the fishery the user is trying to manage.
+
+  \emph{Pre-assessment -- Life-History Based}: These methods give target reference points that can then be used in other assessment methods.
+
+  \emph{Extremely data-poor}: Methods that can provide guidance for management if minimal data are available. If mid or high ``tier'' methods are available for the fishery, then the user should preferentially focus on those methods.
+
+  \emph{Mid}: Methods that require a moderate amount of data, usually collected over a series of time. These include methods such as length-based methods, catch-only methods, or multi-indicator frameworks.
+
+  \emph{High}: Methods that, relatively speaking, have the most intensive data and computation requirements, i.e.~population dynamic models.
 \item
   \textbf{Option:} This is the name of the option being considered.
 \end{itemize}
@@ -991,6 +1005,17 @@ Species that follow boom-and-bust cycles display high volatility in their popula
 Source: Modified from FAO (1998): Guidelines for the routine collection of capture fishery data
 
 via \href{http://www.fao.org/fishery/glossary/en}{FAO Term Portal - Fisheries}
+
+\hypertarget{capital-stuffing}{%
+\subsection{Capital Stuffing}\label{capital-stuffing}}
+
+Costly investments in vessel or gear improvements, to outcompete others for a larger share of available fish. This often leads to higher levels of catch than those intended by managers.
+
+Source: Townsend, R. E. (1985). On capital-stuffing in regulated fisheries. \emph{Land
+Economics, 61}(2), 195. \url{https://doi.org/10.2307/3145812}
+
+via Anderson CM, Krigbaum MJ,
+Arostegui MC, et al.~How commercial fishing effort is managed. \emph{Fish Fish}. 2018;00:1--18. \url{https://doi.org/10.1111/faf.12339}
 
 \hypertarget{carrying-capacity-k}{%
 \subsection{Carrying Capacity (K)}\label{carrying-capacity-k}}

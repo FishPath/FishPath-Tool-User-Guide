@@ -74,6 +74,20 @@ knitr::include_graphics('images/caveats.png')
 
 - **(Data) Category:** The Category column allows the user to view the options by categories. This column is different for each section. In the Data Collection Section, this column is titled “Data Category”, showing the four categories of the type of data that may be collected (see also “Data Collection Section Results” above). In the Assessment Section, this column is titled either “Input-Based Category” or “Output-Based Category”, reflecting two sorting options available for organizing the assessment option results. In the Management Measures Section, this column is simply titled “Category” and displays the categories of management measures. 
 
+- **"Assessment Tier" (Assessments Only)**: The availability of analytical methods increases as data and biological information increases. Thus more methods typically become available with more information. But some of the simpler approaches may also no longer be strong candidates for application in light of more data-driven methods. The "assessment tier" category is provided to help determine the general data and model complexity levels for each method. This is especially useful when choosing which methods to prioritize as it allows the user to identify the most data-driven methods rather than attempting to do all possible. A general recommendation is to initially consider or prioritize the highest "tier" methods available when choosing methods to implement, though this does not exclude adding other lower tiers methods if desired. Indeed, the user is encouraged to consider the trade-offs between research capacity and inherent data uncertainties associated with “higher tier” assessment, and the lower data requirements and required research capacity, yet reduced robustness, of the “lower tier” methods.
+
+  There are 5 “assessment tiers”:
+
+  _Pre-assessment – Risk Analysis_: Methods in this "tier" identify species or groups of species that may be classed as “at risk of harm”, and help prioritize which stocks should be focused on for further management. It is recommended to complete one risk analysis before conducting a FishPath questionnaire to hone understanding of which parts of the fishery the user is trying to manage.
+
+  _Pre-assessment – Life-History Based_: These methods give target reference points that can then be used in other assessment methods.
+
+  _Extremely data-poor_: Methods that can provide guidance for management if minimal data are available. If mid or high "tier" methods are available for the fishery, then the user should preferentially focus on those methods. 
+
+  _Mid_: Methods that require a moderate amount of data, usually collected over a series of time. These include methods such as length-based methods, catch-only methods, or multi-indicator frameworks.
+
+  _High_: Methods that, relatively speaking, have the most intensive data and computation requirements, i.e. population dynamic models. 
+
 - **Option:** This is the name of the option being considered.
  
 ### Full Option Details
