@@ -37,7 +37,7 @@ Species that follow boom-and-bust cycles display high volatility in their popula
 <font size="2">Source: FishPath Team</font>
 
 ### Bycatch 
-Species that follow boom-and-bust cycles display high volatility in their population dynamics. This means that their availability is sudden, extreme, and unpredictable.
+Part of a catch of a fishing unit taken incidentally in addition to the target species towards which fishing effort is directed. Some or all of it may be returned to the sea as discards, usually dead or dying
 
 <font size="2">Source: Modified from FAO (1998): Guidelines for the routine collection of capture fishery data
 
@@ -351,7 +351,7 @@ Corresponds to a state of a fishery and / or a resource which is considered desi
 
 via (ref:FAO)</font>
 
-### Transboudary
+### Transboundary
 A stock of fish that move across management boundaries
 
 <font size="2">Source: FishPath Team</font>
