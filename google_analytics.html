@@ -8,4 +8,9 @@
   gtag('config', 'UA-163834956-1', {
       'page_path': location.pathname + location.hash
       });
+  window.addEventListener("hashchange", e => {
+    gtag('config', 'UA-163834956-1', {
+        'page_path': location.pathname + location.hash
+        });
+  });
 </script>
