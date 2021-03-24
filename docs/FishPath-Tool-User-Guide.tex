@@ -74,7 +74,7 @@
 
 \title{FishPath Tool User Guide}
 \author{The Nature Conservancy}
-\date{Last updated: October 27, 2020}
+\date{Last updated: March 24, 2021}
 
 \begin{document}
 \maketitle
@@ -95,20 +95,22 @@
 \hypertarget{motivation}{%
 \section{Motivation for Developing the FishPath Tool and FishPath Process}\label{motivation}}
 
-Sustainable fisheries management tends to be underpinned by harvest strategies that specify a predefined relationship among data collection programs, assessment methods, and management measures. However, only a small fraction of the world's fisheries has these management systems in place, with resource- and data-limited fisheries facing significant challenges in their development. Notable recent progress has been achieved in the development of stock assessments and other data-limited tools, but outstanding challenges for data-limited fisheries lie in developing fully articulated harvest strategies, which includes determining, linking, and implementing appropriate options. Understanding the full suite of available data collection, stock assessment, and management measure options and choosing the options most appropriate for each fishery is an often-daunting process, given the full landscape of options. Exacerbating the challenge of numerous options, data-limited fisheries are often simultaneously capacity-limited. In addition, small-scale fisheries have unique characteristics and challenges, requiring unique and tailored plans, and where ``silver bullet'' approaches that do not fully consider the entire fishery's unique challenges must be avoided. An enormous challenge lies in making fisheries technical information, resources, and harvest strategy support tools accessible, simple, and structured, while not oversimplifying the innate complexity and nuanced aspects of each individual fishery setting as to the detriment of the fishery and fishery participants.
+Well-managed, sustainable fisheries have a few common elements no matter the circumstance - the rules that govern sustainable fisheries practices are transparent, supported by stakeholders, and tailored to the fishery context. More technically, this involves collecting data, which feed into an assessment, and then using assessment results to inform management measures. However, only a small fraction of the world's fisheries have these sustainable management systems in place, with resource- and data-limited fisheries facing significant challenges in their development. Notable recent progress has been achieved in the development of stock assessments and other data-limited tools, but outstanding challenges for data-limited fisheries lie in selecting and implementing appropriate options for data collection, stock assessment, and management measures --- the key components of a harvest strategy.
 
-FishPath was developed as a collaboration between The Nature Conservancy (TNC), the U.S. National Oceanic and Atmospheric Administration (NOAA), and Australia's Commonwealth Scientific and Industrial Research Organisation (CSIRO). FishPath is an approach for setting fisheries on the path to sustainability. The FishPath approach is something that everyone working in fisheries tries to do anyway --- try and figure out what to do with what you have. It is simply a highly organized and inclusive way to do it and should be the entry point of any fisheries management development.
+Due to a wide variety of possibilities, understanding the full suite of available data collection, stock assessment, and management measure options and choosing the options most appropriate for each fishery is often a daunting process. Exacerbating the challenge of numerous options, data-limited fisheries are often simultaneously capacity- or resource-limited. In addition, small-scale fisheries have unique characteristics and challenges which require tailored plans. Singular or generic approaches that do not fully consider the entire fishery's unique challenges must be avoided. An enormous challenge lies in broadening the accessibility of technical information, resources, and harvest strategy support tools, while not oversimplifying the innate complexity and nuanced aspects of each individual fishery setting.
 
-FishPath includes a stakeholder engagement process which is underpinned by the FishPath tool. The FishPath process aims to engage stakeholders and build capacity to develop predefined fisheries harvest strategies that are tailored to local conditions and challenges. The FishPath tool supports the process of narrowing down and identifying viable components of the management strategy. However, the FishPath tool, while providing advice on narrowing the viable list of harvest strategy options, does not make the final selection or articulate the details of, evaluate, and implement the harvest strategy. It is strongly encouraged that users work with trained facilitators from the FishPath Network to facilitate this process and use resources found within the FishPath tool that identify appropriate tools for carrying out the harvest strategy.
+FishPath was created to address these challenges. It was developed through a collaboration between The Nature Conservancy (TNC), the U.S. National Oceanic and Atmospheric Administration (NOAA), and Australia's Commonwealth Scientific and Industrial Research Organisation (CSIRO). FishPath is an approach for setting fisheries on the path to sustainability. The FishPath approach streamlines something that everyone working in fisheries strives to do --- figure out what to do with what you have. It provides an organized, efficient and inclusive way to do it.
+
+The overall FishPath approach includes a stakeholder engagement process which is underpinned by the FishPath Tool. The broader FishPath Process aims to engage stakeholders and build capacity to develop management measures that are tailored to local conditions and challenges. The FishPath Tool supports the process of identifying viable components of the management strategy.
 
 \hypertarget{fishpath-tool-overview}{%
 \section{FishPath Tool Overview}\label{fishpath-tool-overview}}
 
-The FishPath tool is an online decision-support tool that streamlines the process for identifying options for the 3 central components of a harvest strategy, specifically, the appropriate options for data collection programs, stock assessments, and management measures (or harvest control rules). The FishPath Tool Platform is a web-based software tool that is developed using Javascript and the React-Redux framework. It is hosted on Amazon Web Services (AWS) servers.
+The FishPath Tool is an online decision-support tool for data-limited fisheries management. The primary goal of the FishPath Tool is to support users in understanding and refining options for the three major components of a harvest strategy: 1) data collection, 2) data-limited assessment, and 3) management measures.
 
-To do this, FishPath tool users answer a series of multiple-choice questions regarding social, economic, operational, biological, ecological and governance characteristics of the fishery, including available data. User responses then flag key assumptions, considerations, and cautions for each option contained in the FishPath tool, which provides customized advice on the appropriateness of any option for the fishery of interest. The results section provides a guided process for narrowing down available options to a short list to be more formally considered for inclusion in a harvest strategy (Figure \ref{fig:overview}). Users can also learn about each option through details, resources and links within the tool.
+The FishPath Tool uses multiple-choice questions to determine unique characteristics of the fishery (Figure \ref{fig:overview}). Questions cover social, economic, operational, biological, ecological and governance characteristics, and which types of data are available. The FishPath Tool contains a database of about 50 options for each of the 3 sections (data collection, assessment, management measures). The answers to the questionnaire flag key assumptions, considerations, and cautions for each option contained in the FishPath Tool. This guidance is based on the fishery context and can be used to understand the appropriateness of each option for the fishery of interest. The Tool results section provides a guided process for narrowing down available options to a short list to be more formally considered for inclusion in a harvest strategy (Figure \ref{fig:overview}). Users can also learn about each option through details, resources and links within the Tool.
 
-It is important to understand what the FishPath tool does and does not do. First, the FishPath tool is not quantitative -- it does not input, upload, or analyze data. The FishPath tool does not use an underlying model and is not a simulation or stock assessment tool. The FishPath tool does aid in the process of identifying a short list of viable options, but it does not prescribe a single, preferred option for each harvest strategy component. Rather, it encourages critical evaluation of an identified subset of options. The FishPath tool provides a standardized, transparent, and efficient platform for users to build the foundation of a harvest strategy for data-limited fisheries. The FishPath tool content undergoes continual updates to include the latest fisheries science and practitioner information. FishPath tool users may submit content suggestions at \href{mailto:support@fishpath.org}{\nolinkurl{support@fishpath.org}}.
+It is important to understand what the FishPath Tool does and does not do. First, the FishPath Tool is not quantitative -- it does not input, upload, or analyze data. The FishPath Tool is not a simulation or stock assessment Tool. The FishPath Tool does aid in the process of identifying a short list of viable options, but it does not prescribe a single, preferred option for data collection, assessment, or management measures. Rather, it encourages critical evaluation of an identified subset of options. The FishPath Tool provides a transparent and efficient platform for users to build the foundation of a harvest strategy for data-limited fisheries. The FishPath Tool content undergoes continual updates to include the latest fisheries science and practitioner information. FishPath Tool users may submit content suggestions at \href{mailto:support@fishpath.org}{\nolinkurl{support@fishpath.org}}.
 
 \begin{figure}
 
@@ -116,20 +118,40 @@ It is important to understand what the FishPath tool does and does not do. First
 
 }
 
-\caption{The FishPath tool at a glance.}\label{fig:overview}
+\caption{The FishPath Tool at a glance.}\label{fig:overview}
 \end{figure}
 
-\hypertarget{purpose-and-intended-audience-of-the-fishpath-tool-user-guide}{%
-\section{Purpose and Intended Audience of the FishPath Tool User Guide}\label{purpose-and-intended-audience-of-the-fishpath-tool-user-guide}}
+\hypertarget{intended-audience-and-use-of-the-fishpath-tool}{%
+\section{Intended Audience and Use of the FishPath Tool}\label{intended-audience-and-use-of-the-fishpath-tool}}
 
-The purpose of the FishPath Tool User Guide is to orient users to the FishPath tool, explain the functionality of tool features, and provide succinct guidance on how to use the FishPath tool to select and review appropriate harvest strategy options. The ultimate goal of using the FishPath Tool is to support the development of an articulated harvest strategy for use in a Fishery Management Plan (this process is outside the scope of the FishPath Tool User Guide).
+The FishPath Tool is intended to be used in two key settings. The first setting is with a trained FishPath Tool facilitator, and the second as an individual user. Each of these intended audience groups may have varying levels of fisheries science and management experience.
 
-The FishPath tool is applicable in a variety of settings. Examples include: use of the FishPath tool in a facilitated, multi-stakeholder workshop setting; small expert groups; individual (``desktop'') use for harvest strategy development or review; or research related to individual components of a harvest strategy, such as selection of an assessment method or details about specific data collection or management measure options. The impact of the tool greatly depends on the context it is used, being most effective in a multi-stakeholder process and lead by experienced practitioners. The use of the tool can also be adapted to work with multi-species fisheries, multi-fleet fisheries, and in selecting current and future scenarios. Guidance on using the tool in these contexts will be incorporated into future versions of the user guide.
+\hypertarget{i.-tool-use-in-facilitated-engagement-process-or-workshop}{%
+\subsubsection{I. Tool Use in Facilitated Engagement Process or Workshop:}\label{i.-tool-use-in-facilitated-engagement-process-or-workshop}}
+
+The FishPath Tool is designed to be navigated by a trained fisheries scientist who facilitates the use of the tool in a group setting with fishery stakeholders. These stakeholders can be multi- (e.g., scientists, managers, universities, fishing industry) or single- (e.g., agency scientists) stakeholder groups. The trained FishPath facilitator leads discussion around answering the FishPath Tool questionnaire and process of narrowing results. In this setting, the overall FishPath Process, led by the facilitator, bridges or lessens any potential gaps related to the technical terms and concepts presented in the tool, improving accessibility to stakeholders. In this setting, the audience members in the meeting are experts in the focal fishery (including fishermen) or familiar with fisheries science and management, but do not need to be career, quantitative fisheries science experts.
+
+\hypertarget{ii.-tool-use-as-individual-user}{%
+\subsubsection{II. Tool Use as Individual User:}\label{ii.-tool-use-as-individual-user}}
+
+The FishPath Tool is also intended to be used by individuals or groups without the support of a trained FishPath facilitator (also referred to as ``Desktop Users'' or those who use the FishPath Tool on their own). These individuals have an intermediate to advanced working knowledge of fisheries science and management. To fully understand the tool and apply it correctly, it is recommended that these users read and thoroughly digest this FishPath Tool User Guide. Examples of individual users include:
+
+\begin{itemize}
+\tightlist
+\item
+  Fisheries scientists, researchers, or students, who are interested in identifying appropriate data-limited assessment options for a data-limited fishery;
+\item
+  Fisheries scientists, managers, students, or other fisheries professionals who want to review and corroborate existing harvest strategy components against guidance provided by FishPath;
+\item
+  Fisheries scientists, managers, students, or other fisheries professionals seeking reference material or a fisheries resource library related to data-limited fisheries management.
+\end{itemize}
+
+The purpose of this User Guide is to explain Tool functionality and provide guidance on how to use the FishPath Tool to select and review appropriate options for data collection, data-limited assessment, and management measures.
 
 \hypertarget{starting-the-fishpath-tool}{%
 \chapter{Starting the FishPath Tool}\label{starting-the-fishpath-tool}}
 
-Importantly, the FishPath tool requires a consistent internet connection to access the questionnaire, save answers, and interact with results.
+Importantly, the FishPath Tool requires a consistent internet connection to access the questionnaire, save answers, and interact with results.
 
 \hypertarget{welcome-page}{%
 \section{Welcome Page}\label{welcome-page}}
@@ -142,7 +164,7 @@ When a user navigates to \url{https://tool.fishpath.org/}, a welcome page is dis
 
 }
 
-\caption{Welcome page of the FishPath tool.}\label{fig:welcome}
+\caption{Welcome page of the FishPath Tool.}\label{fig:welcome}
 \end{figure}
 
 \hypertarget{creating-a-fishpath-account}{%
@@ -176,10 +198,10 @@ This information is used to track user origin and the use of the FishPath tool. 
 
 }
 
-\caption{“Create an Account” screen of the FishPath tool.}\label{fig:create-account}
+\caption{“Create an Account” screen of the FishPath Tool.}\label{fig:create-account}
 \end{figure}
 
-After submitting the account request, the user will receive a confirmation email with a link to complete registration. After account creation, whenever the user returns to the Welcome Page of the FishPath tool, the user may simply ``Login'' with their email address and password (Figure \ref{fig:login-page}).
+After submitting the account request, the user will automatically receive a confirmation email with a link to complete registration. After account creation, whenever the user returns to the Welcome Page of the FishPath Tool, the user may simply ``Login'' with their email address and password (Figure \ref{fig:login-page}).
 
 \begin{figure}
 
@@ -187,7 +209,7 @@ After submitting the account request, the user will receive a confirmation email
 
 }
 
-\caption{Login Page of the FishPath tool.}\label{fig:login-page}
+\caption{Login Page of the FishPath Tool.}\label{fig:login-page}
 \end{figure}
 
 \hypertarget{fishpath-tool-dashboard}{%
@@ -199,11 +221,11 @@ After creating an account (new user) or logging in (existing user), the user is 
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \textbf{``FishPath Tool User Guide''}, which contains detail on using the FishPath Tool and interpreting results.
+  \textbf{``FishPath Tool User Guide''} (this guide), which contains detail on using the FishPath Tool and interpreting results.
 \item
   \textbf{``My Fisheries''}, which provides a list of the user's current list of fisheries they have started or completed in the tool. Users may access their fisheries at any time through this section, and return to in-progress FishPath questionnaires or results pages;
 \item
-  \textbf{``Reference Materials''}, which provides a list of all options contained in the FishPath tool with details and reference materials;
+  \textbf{``Reference Materials''}, which provides a list of all options contained in the FishPath Tool with details and reference materials, and the ability to download the Question List;
 \item
   \textbf{``Get Support, Ask a Question, or Help us Improve the FishPath Tool''}, which allows the user to send questions or feedback to the FishPath team.
 \end{enumerate}
@@ -214,15 +236,31 @@ After creating an account (new user) or logging in (existing user), the user is 
 
 }
 
-\caption{FishPath Tool Dashboard, or the homepage for FishPath tool users. The pop out shows the FishPath Tool Dashboard drop-down menu.}\label{fig:dashboard}
+\caption{FishPath Tool Dashboard, or the homepage for FishPath Tool users. The pop out shows the FishPath Tool Dashboard drop-down menu.}\label{fig:dashboard}
 \end{figure}
 
-When a user clicks the ``FishPath Tool'' menu in the top left corner, a drop-down display allows the user to navigate to various options (Figure \ref{fig:dashboard}). The ``Reference Materials'' tab displays all of the options contained in the FishPath Tool.
+\hypertarget{fishpath-tool-side-bar-menu}{%
+\subsubsection{FishPath Tool Side Bar Menu}\label{fishpath-tool-side-bar-menu}}
+
+At the top left of the screen, users can view a drop-down side-bar menu by clicking the 3 horizontal lines (Figure \ref{fig:dashboard}). This menu allows users to return to the Dashboard, Sign Out, access reference materials, and toggle functionality called ``Saving Status Toolbar''.
+
+The ``Saving Status Toolbar'' (Figure \ref{fig:saving-status}) will notify the user of the status of saving questionnaire responses and results. This toolbar appears at the bottom of the Questionnaire and results screens to notify the user if their changes have been saved to the database. If all changes have been fully saved, it will display ``All Changes Saved''. In the event of inconsistent internet, changes may not save to the database immediately and status will be displayed (e.g., ``Offline - 2 pending changes''). The Tool will keep attempting to save everything until successful. Users can continue answering the questionnaire or make other changes while changes are pending. However, users should not close or refresh the browser until all answers have been saved. If the browser is closed or refreshed before the save is complete, then those changes will be lost. The user will be notified that changes will be lost before closing or refreshing the page.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.95\linewidth]{images/saving-status-toolbar} 
+
+}
+
+\caption{Saving Status Toolbar functionality. The top image shows saved; the bottom image shows changes pending.}\label{fig:saving-status}
+\end{figure}
 
 \hypertarget{adding-a-new-fishery}{%
 \section{Adding a New Fishery}\label{adding-a-new-fishery}}
 
-Selecting the blue button ``Add a Fishery'' allows users to start a new fishery in the FishPath tool that will be added to their account. First, a pop-up ``Fishery Information'' screen appears to prompt users to define the fishery of focus (Figure \ref{fig:fishery-info}), using the fields below. This information is used to better understand the use of the FishPath tool, provide high-level aggregate information about fishery characteristics, and to help users define the fishery to which they will be applying FishPath, so that answers will be directed at that fishery only.
+Selecting the blue button ``Add a Fishery'' allows users to start a new fishery in the FishPath Tool that will be added to their account. A pop-up ``Fishery Information'' screen appears to prompt users to define the fishery of focus (Figure \ref{fig:fishery-info}), using the fields below. This information helps users define the fishery to which they will be applying FishPath, so that answers will be directed at that fishery only. It is also used by TNC to better understand the use of the FishPath Tool and provide high-level aggregate information about fishery characteristics.
+
+All fisheries and information saved in the Fishpath Tool (including questionnaire responses, notes, and results) are only accessible by the submitting user and FishPath Tool Admins. If desired, users may choose to \protect\hyperlink{Results-Actions}{\textbf{share fishery results}}.
 
 \begin{itemize}
 \tightlist
@@ -233,11 +271,11 @@ Selecting the blue button ``Add a Fishery'' allows users to start a new fishery 
 \item
   Fleet and Gear Type(s):
 \item
-  Country or Countries:
+  Country (may select multiple):
 \item
   Geographic Area of the Fishery:
 \item
-  In which of these 3 contexts is the FishPath Tool being used for this fishery?
+  In which of these 3 contexts is the FishPath Tool being used for this fishery? This information is collected to better understand Tool use patterns.
 
   \begin{itemize}
   \tightlist
@@ -259,7 +297,7 @@ Selecting the blue button ``Add a Fishery'' allows users to start a new fishery 
 \caption{Fishery Information pop-up screen of the FishPath Tool.}\label{fig:fishery-info}
 \end{figure}
 
-Upon selecting ``Submit'', the user is prompted to select one of the 3 harvest strategy components (sections) of the FishPath Tool (Data Collection, Assessment, Management Measures) and begin the FishPath tool questionnaire (Figure \ref{fig:fishery-entry}). Users can complete and review results from these sections independently. A pencil in the upper-right corner allows users to edit the fishery information (input in Figure \ref{fig:fishery-entry}) at any time.
+Upon selecting ``Submit'', the user is prompted to select one of the 3 harvest strategy components (sections) of the FishPath Tool (Data Collection, Assessment, Management Measures) and begin the FishPath tool questionnaire (Figure \ref{fig:fishery-entry}). Users can complete and review results from these sections independently and in any order. A pencil in the upper-right corner allows users to edit the fishery information (input in Figure \ref{fig:fishery-entry}) at any time.
 
 \begin{figure}
 
@@ -267,13 +305,13 @@ Upon selecting ``Submit'', the user is prompted to select one of the 3 harvest s
 
 }
 
-\caption{Entry screen to the FishPath tool questionnaire after fishery information has been defined.}\label{fig:fishery-entry}
+\caption{Entry screen to the FishPath Tool questionnaire after fishery information has been defined. The pencil icon (red arrow) allows users to edit fishery name and details.}\label{fig:fishery-entry}
 \end{figure}
 
 \hypertarget{fishpath-tool-questionnaire}{%
 \chapter{FishPath Tool Questionnaire}\label{fishpath-tool-questionnaire}}
 
-The goal of the FishPath tool questionnaire is to elicit information about all aspects of the fishery. This information leads to the activation of assumptions, cautions and considerations for each option. Across the three sections (Data Collection, Assessment, and Management Measures) the user answers a series of \textasciitilde120 questions. Questions are categorized in 6 categories, which indicate the nature of the information in the question:
+The goal of the FishPath Tool questionnaire is to elicit information about all aspects of the fishery. This information leads to the activation of assumptions, cautions and considerations for each option. Across the three sections (Data Collection, Assessment, and Management Measures) the user answers a series of \textasciitilde120 questions. Questions are categorized in 6 categories, which indicate the nature of the information in the question:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -292,9 +330,9 @@ The goal of the FishPath tool questionnaire is to elicit information about all a
   Socio-Economic
 \end{enumerate}
 
-Some questions span multiple sections of the questionnaire (i.e.~they are relevant in considering multiple components of a harvest strategy). To avoid duplicity, such questions, once answered, will show as completed when beginning any subsequent section in which they occur.
+Some questions are relevant to multiple sections (Data Collection, Assessment, Management Measures). Once answered, these will not appear in any subsequent section in which they occur.
 
-At any time, the user may close and later return to their session via their ``My Fisheries'' dashboard. Any submitted answers will be saved with a consistent internet connection. Once the user has completed an individual section, which may only be achieved by providing responses to all questions in that section, the user may either complete a subsequent section or view results from the completed section. Results for any section become available once the user has completed the respective questionnaire. The questionnaire is periodically updated by the FishPath team to reflect the latest fisheries science, so users may need to answer any new questions when returning to a fishery before reviewing results of associated sections.
+At any time, the user may close and later return to their session via their ``My Fisheries'' dashboard. Once the user has completed an individual section, the user may either complete a subsequent section or view results from the completed section. Results for any section become available once the user has completed the respective questionnaire section.
 
 After viewing the entry screen to the FishPath questionnaire (Figure \ref{fig:fishery-entry}), the user selects one of the 3 sections. An overview screen will appear with the name of the section, the number of questions associated with that section, and a short guidance on answering the questions (Figure \ref{fig:dc-overview}). The user can then choose to ``Begin'' the section or ``Choose Another Section''.
 
@@ -307,28 +345,19 @@ After viewing the entry screen to the FishPath questionnaire (Figure \ref{fig:fi
 \caption{Data Collection section overview.}\label{fig:dc-overview}
 \end{figure}
 
-\hypertarget{criteria-and-caveat-questions}{%
-\section{Criteria and Caveat Questions}\label{criteria-and-caveat-questions}}
-
-In the FishPath tool, questions are designated as either ``Criteria'' or ``Caveats'' or both, which refers to how question responses are linked to options contained within FishPath.
-
-A Criterion question is used to determine whether the fishery meets a minimum qualification required to apply an option. Whether the fishery meets the minimum (or often multiple) criteria for each option is indicated in the results window (see Results sections below). For example, in the ``Assessment'' section of the questionnaire, there are questions about data quality, quantity, and data type for the fishery, which correspond to the minimum levels required to enable each type of assessment method. Upon answering a ``criteria question'' about, for example, fishing effort data, within the Assessment section (Figure \ref{fig:ex-crit-question}), the fishery will be scored in the results section according to whether it meets that particular minimum level of effort data required by particular assessment options. The Results section reports not only whether or not each criterion is met, but also gives an indication, via subjectively assigned traffic light color scales, as to the degree the criteria is met, and provides guidance as to the level of uncertainty associated with that particular required input. Criteria questions are not included in the ``Management Measures'' section. While a management measure option may be ill-advised because it violates assumptions (i.e, ``caveats''), there are no prohibiting factors that would prevent any single option being implemented, if so desired. Conversely, one cannot undertake certain assessments or forms of data collection without meeting minimum requirements.
-
-Questions whose responses invoke ``caveats'' will not eliminate or retain options, but rather invoke subjectively assigned traffic light-colored warnings, or positive attributes, against specific options. These are intended to speak to issues that do not necessarily prohibit the option's feasibility, but that should be given explicit consideration, and the ability to address each should be determined, before deeming the option is best suited to the fishery. As with the criteria questions, these are presented in the results section of the FishPath tool with explanatory text.
-
-\begin{figure}
- 
- {\centering \includegraphics[width=0.95\linewidth]{images/ex-crit-question} 
- 
- }
- 
- \caption{Example “criteria” question in the Assessment section of the FishPath Questionnaire.}\label{fig:ex-crit-question}
- \end{figure}
-
 \hypertarget{anatomy-of-a-fishpath-tool-question}{%
 \section{Anatomy of a FishPath Tool Question}\label{anatomy-of-a-fishpath-tool-question}}
 
-(Figure \ref{fig:question-anatomy}) provides an example of a FishPath question screen:
+Figures \ref{fig:question-anatomy} and \ref{fig:bookmark-notes} show examples of the FishPath Tool question screen.
+
+\begin{figure}
+ 
+ {\centering \includegraphics[width=0.95\linewidth]{images/question-anatomy} 
+ 
+ }
+ 
+ \caption{Anatomy of a FishPath Tool question.}\label{fig:question-anatomy}
+ \end{figure}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -342,23 +371,14 @@ Questions whose responses invoke ``caveats'' will not eliminate or retain option
 \item
   The sub-heading also indicates the \textbf{number of questions answered} and remaining within that section.
 \item
-  For the Data Collection section only, it is also stated whether the question pertains to either issues of \textbf{``representation'' or ``implementation''}. This helps users to understand the intent of the question, by identifying whether the question has ramifications for the form of data collection in terms of its either ability to obtain representative data, or in its ability to be effectively implemented.
+  For the Data Collection section only: This notifies users whether the question has ramifications for the ability to collect representative data, or pertains to the ability to implement a data collection program, or both. It is simply intended to help the user better understand and answer the question.
+\item
+  Toggle between \textbf{``Previous''} and \textbf{``Next Question''}. At the bottom of the screen, the user may advance to the next question or return to the previous question.
 \item
   There is the ability to \textbf{``Bookmark''} the question. A bookmark flags questions for ease of later revisiting (Figure \ref{fig:bookmark-notes}). A question may be bookmarked for reasons such as if the answer is unknown, it needs further consideration or input, is in dispute, or if the user feels the question is critical. As all questions must be answered in order to review results, adding a bookmark allows users to provide an interim response that may be revisited in the results section, once the user can evaluate the relative impact of their response.
 \item
-  Users can \textbf{``Take A Note''} on a question (Figure \ref{fig:bookmark-notes}). Notes can be taken for a variety of reasons such as to clarify why a certain response was given, to capture important discussion had about a question, why the question was bookmarked or noting a response requiring further research. Notes can later form an important part of draft harvest strategy development, and, by providing justification for the response, can maintain traceability and replicability. When connected to the internet, all notes made will be saved into FishPath and available to the user for reference.
-\item
-  At the bottom of the screen, the user may advance to the \textbf{next question} or return to the \textbf{previous} question.
+  Users can \textbf{``Take A Note''} on a question (Figure \ref{fig:bookmark-notes}). Notes can be taken for a variety of reasons such as to clarify why a certain response was given, to capture important discussion about a question, why the question was bookmarked or noting a response requiring further research. Notes can later form an important part of draft harvest strategy development, and, by providing justification for the response, can maintain traceability and replicability. When connected to the internet, all notes made will be saved into the FishPath Tool and available to the user for reference.
 \end{enumerate}
-
-\begin{figure}
- 
- {\centering \includegraphics[width=0.95\linewidth]{images/question-anatomy} 
- 
- }
- 
- \caption{Anatomy of a FishPath tool question.}\label{fig:question-anatomy}
- \end{figure}
 
 \begin{figure}
  
@@ -366,20 +386,29 @@ Questions whose responses invoke ``caveats'' will not eliminate or retain option
  
  }
  
- \caption{Example FishPath tool question with “Bookmark” (green) and “Take a note” (text box) functionality selected.}\label{fig:bookmark-notes}
+ \caption{Example FishPath Tool question with “Bookmark” (green) and “Take a note” (text box) functionality selected.}\label{fig:bookmark-notes}
  \end{figure}
+
+\hypertarget{criteria-and-caveat-questions}{%
+\section{Criteria and Caveat Questions}\label{criteria-and-caveat-questions}}
+
+Questions are designated as either ``Criteria'' or ``Caveats'' or both, which refers to how question responses are linked to options contained within the FishPath Tool.
+
+A Criterion question is used to determine whether the fishery meets a minimum qualification required to apply an option. Questions whose responses invoke ``caveats'' will not eliminate options, but rather invoke traffic light-colored warnings (red, yellow, orange), or positive attributes (green), against specific options.
 
 \hypertarget{subjective-questions}{%
 \section{Subjective Questions}\label{subjective-questions}}
 
-While the majority of questions within FishPath are intended to be answered definitively (objective), certain questions are subjective in nature. The latter typically request a user response in the form of a perceived ranking (e.g.~``low'', ``moderate'', ``high''). Most such questions invoke caveats and, when all caveats are considered together, the relative impact of those invoked by subjective questions can be evaluated. In this way, priority can be assigned to whether the response requires further consideration and debate, or whether it is of little relative significance in determining the most viable harvest strategy options. Further discussion can then be focused on the most appropriate issues.
+While the majority of questions within the FishPath Tool are intended to be answered definitively (objective), certain questions are subjective in nature. For example, a subjective question may ask to rank certain fishery characteristics on a qualitative scale (e.g., ``low'', ``moderate'', ``high''). This subjective design is intentional, as it allows users to think through key, relative characteristics of their fishery that will influence the feasibility of implementing certain management options.
 
-Generally, the best approach to take when completing the questionnaire is to aim to do so relatively efficiently, without overtly laboring or debating over any one question. If in doubt, the question can be bookmarked, and notes can be taken, for easy revisiting later. The transparency of the FishPath tool is such that users will be able to see explicitly how their response to any one question influences the results (by invoking criteria or caveats), and to readily change their answer if so desired. Moreover, the aim of the questionnaire is to obtain an overall profile of the fishery's characteristics, so as best to inform the choice of harvest strategy option. As such, questions may pertain to only a few options, or they may not invoke strong caveats. The goal is to appraise the fishery as a whole, as opposed to focusing on any single question.
+Generally, the best approach to take when completing the questionnaire is to aim to do so relatively efficiently, without overly laboring or debating over any one question. If in doubt, the question can be bookmarked, and notes can be taken, for easy revisiting later. The transparency of the FishPath Tool allows users to explicitly see how their response to any one question influences the results (by invoking criteria or caveats), and to \protect\hyperlink{bookmarked-questions-and-influential-answers}{\textbf{readily change their answer if desired}}. Moreover, the aim of the questionnaire is to obtain an overall profile of the fishery's characteristics to best inform the choice of harvest strategy option. As such, questions may pertain to only a few options, or they may not invoke strong caveats. The goal is to appraise the fishery as a whole, as opposed to focusing on any single question.
 
 \hypertarget{completing-the-questionnaire}{%
 \section{Completing the Questionnaire}\label{completing-the-questionnaire}}
 
-Upon completing or exiting any of the three sections, a summary screen appears with the status of relative completion. Users review their result for completed sections, or otherwise continue the questionnaire (Figure \ref{fig:summary-screen}).
+Upon completing or exiting any of the three sections, a pop-up summary window appears with the questionnaire status (Figure \ref{fig:summary-screen}). Users may review their results for completed sections, or otherwise continue the questionnaire.
+
+The questionnaire is periodically updated by the FishPath team to reflect the latest fisheries science. If there are any new or outstanding questions, the section will no longer display as ``Complete'' in the pop-up summary window (Figure \ref{fig:summary-screen}) when returning to a fishery questionnaire. Instead, the number of new questions needing to be answered will be displayed (e.g., ``45 of 46 questions answered'').
 
 \begin{figure}
  
@@ -387,17 +416,55 @@ Upon completing or exiting any of the three sections, a summary screen appears w
  
  }
  
- \caption{Summary window of the 3 FishPath questionnaire sections, showing questionnaire progress.}\label{fig:summary-screen}
+ \caption{Summary window of the 3 FishPath Tool questionnaire sections, showing questionnaire progress.}\label{fig:summary-screen}
  \end{figure}
+
+\hypertarget{fishpath-tool-conceptual-framework}{%
+\section{FishPath Tool Conceptual Framework}\label{fishpath-tool-conceptual-framework}}
+
+At a high level, the FishPath Tool is a framework that ``matches'' the user's questionnaire responses with the 150+ options contained within the Tool (Figure \ref{fig:conceptual}). In other words, the user's answers to the questions help characterize the fishery. Each answer is used to flag considerations when applying a given option to the fishery. These considerations (and types of questions) may take two forms. Criteria denote that the fishery does or does not meet the basic requirements to undertake an option. Alternatively, caveats are warnings to consider when applying the option. Caveats may either be scaled intensity warnings denoted by traffic light colors, or static caveats which always apply to the option.
+
+\begin{figure}
+ 
+ {\centering \includegraphics[width=0.95\linewidth]{images/conceptual-framework} 
+ 
+ }
+ 
+ \caption{High level, conceptual framework of the FishPath Tool, demonstrating the linkages between questions, options, and criteria or caveats.}\label{fig:conceptual}
+ \end{figure}
+
+\hypertarget{fishpath-tool-framework-overview-of-the-3-sections}{%
+\subsection{FishPath Tool: Framework Overview of the 3 Sections}\label{fishpath-tool-framework-overview-of-the-3-sections}}
+
+\hypertarget{data-collection-section}{%
+\subsubsection{Data Collection Section}\label{data-collection-section}}
+
+The Data Collection section of the FishPath Tool aims to support the user in understanding which broad categories of information to collect, as well as the data collection mechanisms that are best suited for the fishery context, capacity, and realities of on-the-ground implementation.
+
+There are a range of data collection mechanism options (from market surveys, to logbooks and observer programs) in the FishPath Tool. These options are subdivided according to the broad category of information that may be collected, as these influence the viability of the data collection option. The \protect\hyperlink{data-categories}{\textbf{four data categories}} in the FishPath tool are: 1) data that yield a basic understanding of the fishery; 2) biological information; 3) data that can inform temporal trend analyses (data time series), and 4) data that are of a sufficient quality to inform a model-based stock assessment.
+
+\hypertarget{assessment-section}{%
+\subsubsection{Assessment Section}\label{assessment-section}}
+
+The Assessment section of the FishPath Tool allows the user to understand which data-limited stock assessment approaches are available and best suited to their fishery. In the FishPath Tool, an assessment is defined as any analysis or performance indicator that gives useful information for management by direct or indirect measures of stock status. This could range from a ``cause for concern'' arising from expert judgement, qualitative risk assessments, values of empirical indicators relative to pre-defined trigger levels, multiple indicator frameworks, to life history analyses that provide estimates of fishing mortality, (F), or fishing mortality at maximum sustainable yield, (FMSY), catch-only models, size or length based approaches, to population dynamics model-fitting approaches that estimate biomass.
+
+Based on the fishery characteristics and the quality and type of available data (elicited from the questionnaire), user responses flag caveats and raise criteria against the \protect\hyperlink{assessment-categories}{\textbf{assessment options}}.
+
+\hypertarget{management-measure-section}{%
+\subsubsection{Management Measure Section}\label{management-measure-section}}
+
+In the FishPath Tool, the Management Measures section allows users to review and refine appropriate options for managing fishing mortality. \protect\hyperlink{management-measure-categories}{\textbf{Management measure options}} within the FishPath Tool can take many forms including spatial, temporal, effort, catch, and gear related restrictions. The FishPath Tool does not have any minimum criteria listed for management measures, but instead uses cautionary caveats. Multiple management measures can and should be used together. The FishPath Tool results do not prescribe or give guidance on the specific form of the harvest rule, nor the strength of adjustment in response to assessment outcomes. However, the FishPath Tool does direct users to resources and tools that can support this process, located within the description of each option.
 
 \hypertarget{fishpath-tool-interactive-results-page}{%
 \chapter{FishPath Tool Interactive Results Page}\label{fishpath-tool-interactive-results-page}}
 
 The FishPath Tool Interactive Results Pages allow users to view and interact with all of the options contained within FishPath and understand how each option may apply to their fishery.
 
-Upon completion of the questionnaire for any section, the user is directed to the FishPath Tool Interactive Results page (Figure \ref{fig:results-overview}). The results are presented separately for each of the 3 sections, or harvest strategy component: 1) Data Collection; 2) Assessment; and 3) Management Measures (Figure \ref{fig:results-overview}, sections shown in dark blue bars near top of screen).
+Upon completion of the questionnaire for any section, the user is directed to the FishPath Tool Interactive Results page (Figure \ref{fig:results-overview}). The results are presented separately for each of the 3 sections, or harvest strategy component: 1) Data Collection; 2) Assessment; and 3) Management Measures (Figure \ref{fig:results-overview}, see arrow).
 
 Each of the three sections of the results can be accessed individually without needing to complete all three sections. If a user has not completed the questionnaire in at least one of the sections, they will be prompted to return to finish the section questionnaire before accessing results (Figure \ref{fig:summary-screen}).
+
+In this section, users should first begin with the process to ``Narrow your Results'' (Figure \ref{fig:results-overview}, blue button). Below, the layout and functionality of this screen is explained, followed by steps in the results narrowing process.
 
 \begin{figure}
 
@@ -405,7 +472,7 @@ Each of the three sections of the results can be accessed individually without n
 
 }
 
-\caption{Initial results display screen in the FishPath tool (featuring the Assessment section), displaying a snapshot of results, not a full listing.}\label{fig:results-overview}
+\caption{Initial results display screen in the FishPath Tool (featuring the Assessment section in the red box), displaying a snapshot of results, not a full listing.}\label{fig:results-overview}
 \end{figure}
 
 Figure \ref{fig:results-components} shows the general components of the results page. Each of these is elaborated below:
@@ -414,8 +481,6 @@ Figure \ref{fig:results-components} shows the general components of the results 
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \protect\hyperlink{Results-Actions}{Actions to Share Results and Edit Fishery Info}
-\item
   \protect\hyperlink{interactive-results-table}{Interactive Results Table}
 \item
   \protect\hyperlink{show-hidden-options-and-sort-options}{Show Hidden Options and Sort Options}
@@ -423,6 +488,10 @@ Figure \ref{fig:results-components} shows the general components of the results 
   \protect\hyperlink{bookmarked-questions-and-influential-answers}{Bookmarked Questions and Influential Answers}
 \item
   \protect\hyperlink{Results-Narrowing}{Results Narrowing Process}
+\item
+  \protect\hyperlink{Results-Actions}{Actions to Share Results and Edit Fishery Info}
+\item
+  \protect\hyperlink{view-only-mode-shared-fishery}{View-Only Mode (Shared Fishery)}
 \end{enumerate}
 
 \begin{figure}
@@ -434,103 +503,230 @@ Figure \ref{fig:results-components} shows the general components of the results 
 \caption{Key components (red labels 1-5) of the FishPath Interactive Tool Results Page.}\label{fig:results-components}
 \end{figure}
 
-\hypertarget{Results-Actions}{%
-\section{Actions to Share Results and Edit Fishery Info}\label{Results-Actions}}
-
-At the top of the Results Page, the user may either ``Share'', ``Export CSV'', ``Generate PDF Report'', ``Copy'', or ``Edit Name and Details'' for their fishery (Figure \ref{fig:results-components}).
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Share:} This will generate a link that allows the user to share a fishery with someone. The user simply needs to send the link and the recipient will have view-only access to this fishery from their active account. A shared fishery can be saved under someone else's FishPath account, and they can make a copy of it to separately edit, if needed. Tip: when creating a copy of a shared fishery in a user account, it is useful to rename the fishery so that edits are tracked under this new name.
-\item
-  \textbf{Export CSV:} This allows users to export the question and answer list from the saved questionnaire, as well as a simple results file, as a .csv file.
-\item
-  \textbf{Generate PDF Report:} Allows the user to create a .PDF of the FishPath results, with all notes captured. The PDF report provides detailed information on each option and their associated caveats and criteria related to the fishery. Users can select to see a report for the ``full list'' of options, or for a specified list of ``top options''.
-\item
-  \textbf{Copy Fishery:} This allows users to make a copy of a fishery's results, be these their own, or from a shared link. To rename that fishery and edit it under a different name, the user should select the ``Edit Name and Details'' button.
-\item
-  \textbf{Edit Name and Details:} This allows users to edit the information entered on the Fishery Information form (name, species, geography, etc.)
-\end{itemize}
-
 \hypertarget{interactive-results-table}{%
 \section{Interactive Results Table}\label{interactive-results-table}}
 
-The results table lists all the available options for the section of interest in rows. Each row summarizes the criteria met and failed, and the caveats invoked (see also ``Criteria and Caveat Questions'' section above). Each option can be selected and expanded to view its description and results in more detail. A guide to the content contained in each row is listed below.
+The results table lists all the available options for the selected section. Each row represents one option (Figure \ref{fig:result-rows}) and summarizes the criteria met and failed, the caveats invoked, and other details. Each option can be selected and expanded to view its description and full caveats and criteria. Each component of the row is explained below.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.95\linewidth]{images/results-rows} 
+
+}
+
+\caption{Headings of the FishPath Tool results table (bold black text) and 3 example options (3 rows). This is the Assessment section.}\label{fig:result-rows}
+\end{figure}
 
 \hypertarget{table-structure}{%
 \subsection{Table Structure}\label{table-structure}}
 
-Figure \ref{fig:single-row} displays a single row from an example results table. The single row represents one option in the FishPath tool, and the details of this singe row are as follows:
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Hide/Unhide:} Any option for which one or more of its minimum criteria have not been met by the fishery is automatically ``hidden'' (greyed-out) by the FishPath Tool (Figure \ref{fig:hide}). For any option, including those not meeting minimum criteria, users may manually click this link to ``hide'' the option, or click ``unhide'' to reinstate it. Hidden options are only shown when the toggle ``Show Hidden Options'' is on (red label 2 in Figure \ref{fig:results-components})
+\end{itemize}
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.95\linewidth]{images/single-row} 
+{\centering \includegraphics[width=0.1\linewidth]{images/hide} 
 
 }
 
-\caption{Headings of the FishPath tool results table.}\label{fig:single-row}
+\caption{Hide, unhide buttons}\label{fig:hide}
 \end{figure}
 
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Hide/Unhide:} Any option for which one or more of its minimum criteria have not been met by the fishery is automatically ``hidden'' (greyed-out) by the FishPath tool. For any option, including those not meeting minimum criteria, users may manually click this link to ``hide'' the option, or click ``unhide'' or reinstate it.
+  \textbf{Notes:} As within the questionnaire, notes may be written and saved for each option by clicking on the note icons (Figure \ref{fig:notes}). For example, notes may be taken on fishery-specific details on why that option may or may not be a good fit, or to record the user's or user groups overall evaluation of the option, given its associated criteria and caveats. Alternatively, notes may be taken if options are hidden or reinstated, to justify that choice as documentation. Notes can be included in the PDF report.
 \end{itemize}
 
-\begin{center}\includegraphics[width=0.1\linewidth]{images/hide} \end{center}
+\begin{figure}
 
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Notes:} As within the questionnaire, notes may be written and saved (with a secure internet connection) for each option. For example, notes may be taken on fishery-specific details (not covered within the questionnaire) on why that option may or may not be a good fit, or to record the user's or user groups overall evaluation of the option, given its associated criteria and caveats. Alternatively, notes may be taken if options are hidden or reinstated, to justify that choice as documentation. Notes are included in the PDF report.
-\end{itemize}
+{\centering \includegraphics[width=0.15\linewidth]{images/notes} 
 
-\begin{center}\includegraphics[width=0.15\linewidth]{images/notes} \end{center}
+}
 
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Criteria (Data Collection and Assessment sections):} The criteria column provides information on whether the fishery meets the minimum conditions required to undertake the option. As explained above, the Management Measures section does not include criteria. If the fishery has met all of the minimum criteria required for the option, a green check is displayed. On the other hand, if a fishery has not met one or more of the minimum criteria required for the option, a red X is displayed (and the option is automatically ``hidden''). The numbered boxes next to the red ``X'' indicate the number of criteria met (green) and unmet (black). For the assessment section only, criteria also have associated ``traffic light'' colored (black, red, orange, yellow, green) guidance to encourage FishPath users to explicitly consider the possible uncertainty associated with the quality of their fishery's information (with black equating to a minimum criterion not having been met). The numbers within in each symbol, are the subset of the total criteria for that option that were not met (black), and that invoked (red, orange, yellow) uncertainty warnings, and positive attributes (green), as triggered by questionnaire responses.
-\end{itemize}
-
-\begin{center}\includegraphics[width=0.35\linewidth]{images/criteria} \end{center}
+\caption{Top icon shows an option with a note already taken. Click to view or edit the note. The bottom icon signifies that no note has been taken for the option. Click to create a new note.}\label{fig:notes}
+\end{figure}
 
 \begin{itemize}
 \item
-  \textbf{Caveats:} The format of the caveats column is identical across all three sections. Caveats are shown as colored circles with numbers indicating the total number of questionnaire responses that invoked a caveat of that particular color. There are three types of caveats:
+  \textbf{Criteria (Data Collection and Assessment sections only):} The criteria column provides information on whether the fishery meets the minimum conditions required to undertake the option. If the fishery has met all of the minimum criteria required for an option, a green check is displayed. On the other hand, if a fishery has not met one or more of the minimum criteria required for an option, it is considered to be eliminated, a red X is displayed, and the option is automatically ``hidden''.
+
+  In the Data Collection section, criteria are either ``Not Met''or ``Met'' (Figure \ref{fig:dc-criteria}). In an eliminated option row, black boxes indicate the number of minimum criteria that were not met. Green boxes indicate the number of criteria that were met.
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.35\linewidth]{images/dc-criteria} 
+
+}
+
+\caption{Example of data collection criteria icons. The top row shows an option that has been eliminated, signified by the red X. It was eliminated due to 1 of the 4 criteria not meeting the minimum requirement. The bottom row shows an option that passed, signified by the green check. The option met both of its criteria requirements.}\label{fig:dc-criteria}
+\end{figure}
+
+In the Assessment section, criteria are also either ``Not Met'' or ``Met'' (Figure \ref{fig:a-criteria}). In addition, the ``Met'' criteria have ``traffic light'' colors (red, orange, yellow, green) associated with them. The colors represent the quality of each data type and encourage FishPath users to explicitly consider the uncertainty associated with using this data in assessments. For example, say there is a time series of removals for the fishery, but it is missing the removal data from an important fleet. The answer for this question will reflect this bias. Then in the assessment results, options requiring a time series of removals (of any quality) will display that this criterion was met, but it will be colored orange to signify that there is high uncertainty in the removal data. This is a reminder that the user needs to be aware of this uncertainty when performing the assessment and interpreting the results.
+
+The number of ``Not Met'' criteria for each option is shown in the black box, while ``Met'' criteria corresponding to each color of uncertainty levels are shown in the colored boxes. In other words, the number in the black box represents the number of criteria that are ``Not Met'', while summing the numbers within each colored box equal the total number of criteria that have been ``Met''.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.35\linewidth]{images/a-criteria} 
+
+}
+
+\caption{Example assessment criteria icons. The top row shows an option that has been eliminated due to 3 criteria that did not meet the minimum requirement. These failed criteria are signified by the 3 in the black box. The bottom row shows an option that has passed criteria, signified by the green check. For both rows, each traffic light color shows the number of passing, or “Met”,  criteria at the various strengths of warning about the data uncertainty.}\label{fig:a-criteria}
+\end{figure}
+
+\begin{itemize}
+\item
+  \textbf{Caveats:} The format of the caveats column is identical across all three sections (Figure \ref{fig:caveats}). Caveats are shown as colored circles with numbers indicating the total number of questionnaire responses that invoked a caveat of that particular color. There are three types of caveats:
 
   \begin{enumerate}
   \def\labelenumi{\arabic{enumi}.}
   \tightlist
   \item
-    \textbf{Cautionary, or warning caveats:} these are marked as red, orange, and yellow circles with the severity or strength of the caveat corresponding to the color (red being highest). These give cautionary guidance based on an attribute of a fishery. For example, if the user responded that the species of interest is susceptible to barotrauma, this would invoke a red caveat against size limits as a management measure, since the fishing-induced mortality of the released (under- or over-sized) fish would render size limits ineffective.
+    \textbf{Cautionary, or warning caveats:} These are marked as red, orange, and yellow circles with the severity or strength of the caveat corresponding to the color (red being highest). These give cautionary guidance based on an attribute of a fishery. For example, if the user responded that the species of interest is susceptible to barotrauma, this would invoke a red caveat against size limits as a management measure, since the fishing-induced mortality of the released (under- or over-sized) fish would render size limits ineffective.
   \item
-    \textbf{Positive attributes:} A green colored caveat provides reasoning for why the option might be well-suited for the fishery on the basis on a of a user response in the questionnaire.
+    \textbf{Positive attributes:} A green colored caveat provides reasoning for why the option might be well-suited for the fishery on the basis of the questionnaire responses.
   \item
-    \textbf{Static caveats:} Turquoise colored caveats are static caveats that need to be considered for an option, regardless of the fishery or the questionnaire responses. A static caveat is independent of specific fishery circumstances and as such are always present. These include key assessment assumptions, for example, that the assessment option assumes that fishery selectivity has not changed over time, or that the assessment method cannot explicitly address uncertainty.
+    \textbf{Static caveats:} Light blue colored caveats are static caveats that need to be considered for an option, regardless of the fishery or the questionnaire responses. A static caveat is independent of specific fishery circumstances and as such is always present. These include key assessment assumptions, for example, that the assessment option assumes that fishery selectivity has not changed over time, or that the assessment method cannot explicitly address uncertainty.
   \end{enumerate}
 \end{itemize}
 
-\begin{center}\includegraphics[width=0.35\linewidth]{images/caveats} \end{center}
+\begin{figure}
+
+{\centering \includegraphics[width=0.35\linewidth]{images/caveats} 
+
+}
+
+\caption{Example of the number of warning caveats (traffic light colors), positive attributes (green), and static caveats (light blue) flagged for an option.}\label{fig:caveats}
+\end{figure}
 
 \begin{itemize}
 \item
-  \textbf{(Data) Category:} The Category column allows the user to view the options by categories. This column is different for each section. In the Data Collection Section, this column is titled ``Data Category'', showing the four categories of the type of data that may be collected (see also ``Data Collection Section Results'' above). In the Assessment Section, this column is titled either ``Input-Based Category'' or ``Output-Based Category'', reflecting two sorting options available for organizing the assessment option results. In the Management Measures Section, this column is simply titled ``Category'' and displays the categories of management measures.
-\item
-  \textbf{``Assessment Tier'' (Assessments Only)}: The availability of analytical methods increases as data and biological information increases. Thus more methods typically become available with more information. But some of the simpler approaches may also no longer be strong candidates for application in light of more data-driven methods. The ``assessment tier'' category is provided to help determine the general data and model complexity levels for each method. This is especially useful when choosing which methods to prioritize as it allows the user to identify the most data-driven methods rather than attempting to do all possible. A general recommendation is to initially consider or prioritize the highest ``tier'' methods available when choosing methods to implement, though this does not exclude adding other lower tiers methods if desired. Indeed, the user is encouraged to consider the trade-offs between research capacity and inherent data uncertainties associated with ``higher tier'' assessment, and the lower data requirements and required research capacity, yet reduced robustness, of the ``lower tier'' methods.
+  \textbf{Category:} The Category column allows the user to view the options by categories and is different for each section.
+
+  \begin{itemize}
+  \item ~
+    \hypertarget{data-categories}{%
+    \paragraph{Data Categories}\label{data-categories}}
+
+    In the \textbf{Data Collection Section}, the ``Data Category'' column shows the four categories of data that may be collected.
+
+    \begin{enumerate}
+    \def\labelenumi{\alph{enumi}.}
+    \tightlist
+    \item
+      \textbf{Basic understanding of the fishery.} When very little is known about a fishery, stakeholders may want to start by collecting general fishery information or fishery operational characteristics to gain a basic understanding of it. Where very few resources are available, this may be the only available data type, although efforts should be made to move beyond this and make the most efficient use of available capacity. Information collected can be fishery independent or dependent; it can help stakeholders learn more about the size and composition of the fleet, identify the total fished area, determine the gear types used, identify the species landed, make broad estimates regarding catch or fishing effort, and gather other information to aid in better understanding the fishery.
+    \item
+      \textbf{Temporal trend analyses (data time series).} Data collected for trend analyses are used to track temporal patterns in fishery performance indicators (e.g., catch, fishing effort, catch-per-unit-effort, and catch composition by species), ecosystem indicators, and species biology indicators. In the absence of biomass estimates, temporal trends of other performance indicators can be used for monitoring the health of the fishery over time. Data for trend analyses must be collected at regular, consistent intervals, and must ideally be directly comparable (i.e., collected using the same gear, from approximately the same spatial regions).
+    \item
+      \textbf{Biological information.} Biological data are collected by obtaining a sample or samples from the species population, recording biometric information (e.g., length/size and weight), gathering information on sex and maturity (e.g., sex identification and maturity identification), and/or collecting biological samples for further study (typically those that are age-related, such as otoliths, scales, and teeth). Biological data provide key information on the species' life history traits, such as growth and reproduction rates. These data are used to better understand the fish stock and to provide the parameters used within fisheries stock assessments and models aiming to estimate the status of the stock.
+    \item
+      \textbf{To inform model-based stock assessment.} Stock status is estimated via formal (model-based) stock assessments. A stock assessment provides an indicator (or proxy) for the current status of the stock, which can then be compared with a selected reference point. Reference points are the benchmarks used to indicate if the stock is in a desirable or an undesirable state. As opposed to the ``Temporal trend analyses'' category, data collected here inform a quantitative assessment that yields an estimate of biomass or fishing mortality, and the category refers to reliable, detailed data. Data collected to measure the stock status (or proxy) can include reliable time series of catch, fishing effort, catch-per-unit-effort, length compositions, weight compositions, fishery-dependent density, or fishery-independent abundance. Most assessment methods require that any biological sampling undertaken to inform biological parameters should occur prior to, or in conjunction with, data collection efforts to establish reference points.
+    \end{enumerate}
+  \item ~
+    \hypertarget{assessment-categories}{%
+    \paragraph{Assessment Categories}\label{assessment-categories}}
+
+    In the \textbf{Assessment Section}, there are two types of categories for each option, the ``\textbf{Assessment Category}'' and ``\textbf{Assessment Output}''.
+
+    \begin{enumerate}
+    \def\labelenumi{\arabic{enumi}.}
+    \tightlist
+    \item
+      \textbf{Assessment Category.} Organizes assessment options based on broader families of assessments. This can be related to the main type of input for the options (e.g., Catch Only) or type of assessment option (e.g., Risk Analysis/Vulnerability).
+
+      \begin{enumerate}
+      \def\labelenumii{\alph{enumii}.}
+      \tightlist
+      \item
+        \textbf{Abundance Indicators.} Abundance or a proxy for abundance is the main input (e.g., catch-per-unit-effort (CPUE)).
+      \item
+        \textbf{Catch Only.} A catch history (removals) is the main input. Options might use various life-history parameters, but do not use other time series or size/age based catch information such as length composition or abundance indices.
+      \item
+        \textbf{General Stock Condition.} General condition of the stock is determined by experts utilizing what information is available, without the use of formal models.
+      \item
+        \textbf{Life History-Based Methods.} Life history parameters are utilized to determine reference points that can be used to compare to indicators.
+      \item
+        \textbf{MPA or No-Take Zone/Reserve.} These compare differences between areas inside a no-take zone and outside the no-take zone.
+      \item
+        \textbf{Multiple Indicators.} Assessment frameworks that formalize management actions to take based on comparisons between multiple indicators and reference points.
+      \item
+        \textbf{Population Dynamics Model.} Statistically integrated data-driven models underpinned by population dynamics, i.e.~the change in numbers and size and/or age structure over time.
+      \item
+        \textbf{Risk Analysis/Vulnerability.} Used to determine how at-risk a species or ecosystem is to overfishing or degradation.
+      \item
+        \textbf{Size/Age-Based.} These options utilize size or age information of the catch, such as the length composition. A time series of catch history is not a requirement for all of these options, but is utilized by some.
+      \end{enumerate}
+    \item
+      \textbf{Assessment Output.} Outputs are units that the assessment option may provide. There are 5 output-based categories. Some assessments may provide multiple outputs.
+
+      \begin{enumerate}
+      \def\labelenumii{\alph{enumii}.}
+      \tightlist
+      \item
+        \textbf{Catch Limit.} Catch levels for application in catch-based management to meet management objectives. For example, the catch that corresponds to maximum sustainable yield (MSY).
+      \item
+        \textbf{Fishing Rate.} Fishing rate for application in effort-based management to meet management objectives. For example, a fishing rate that could be compared to fishing rate at MSY.
+      \item
+        \textbf{Stock Status.} The relative abundance of the stock.
+      \item
+        \textbf{Stock Scale.} The absolute abundance of the stock.
+      \item
+        \textbf{Other Control Rule Metric.} Any indicator other than the four listed above, e.g., changes in species-composition of catches.
+      \end{enumerate}
+    \end{enumerate}
+  \item ~
+    \hypertarget{management-measure-categories}{%
+    \paragraph{Management Measure Categories}\label{management-measure-categories}}
+
+    In the \textbf{Management Measures Section}, this column is simply titled ``Category'' and displays the categories of management measures. There are 8 categories of management measures.
+
+    \begin{enumerate}
+    \def\labelenumi{\alph{enumi}.}
+    \tightlist
+    \item
+      \textbf{Catch Limits.} Catch limits aim to directly manage the fishing mortality of target species by setting a maximum for how many individual, or how much weight of, fish can be removed (including bans) by a fishery in a given time period and/or for specific areas.
+    \item
+      \textbf{Effort Limits.} Fishing effort limits are aimed at managing fishing mortality by adjusting the fishing activity of fleets to align with a fishing exploitation rate that achieves management objectives. A form of ``input control,'' fishing effort limitations impact all harvested species and not just the target species. Fishing effort limits may be useful in managing multispecies fisheries (where species-specific catch controls may be difficult to implement), in fisheries where gear or fishing effort units are readily controlled, or for fisheries where catch reporting may be unreliable.
+    \item
+      \textbf{Gear Management.} Gear management specifies the type and design of gear allowed in a fishery, to control the efficiency and harvesting capacity of fishers.
+    \item
+      \textbf{Temporal Management.} Temporal management regulates harvest by limiting the total number of days or hours per day that a fishery is open. The aim of temporal management is to control the total fishing mortality. This includes fixed rules, or rules that are invoked or modified according to assessment outcomes.
+    \item
+      \textbf{Spatial Management.} Spatial management involves applying management measures that are spatially explicit, thus specific to one or more areas within the fishery's range. Spatial management may include the use of temporary, rotational, or permanent reserves, spatial closures, or protected areas. It may also include rules that limit individual catch or fishing effort in any one area, requiring fishers to ``move on'' if these limits are exceeded. Spatial harvest control rules can protect areas against the direct and indirect impacts of fishing, thus affecting the entire ecosystem within the restricted areas. Spatial restrictions can be fixed, or they may be invoked or modified within a harvest control rule.
+    \item
+      \textbf{Size Limits.} Size limits specify the length/size at which species can be legally retained. In the context of a harvest strategy size limits generally aim to protect certain life stages of a species (typically, juveniles and/or mega-spawners), with the goal of increasing productivity, or maintaining sustainability.
+    \item
+      \textbf{Sex-Specific Regulations.} Sex-specific length/size limits can be implemented for species where males and females mature at different lengths/sizes, whether due to gender differences in growth rate, or age-at-maturity differing by gender. Size regulations can be set separately for each sex to allow maturity to be achieved prior to individuals entering the fishery harvest.
+    \item
+      \textbf{Other.} This category of management measures includes other options that are not captured by the categories above.
+    \end{enumerate}
+  \end{itemize}
+\item ~
+  \hypertarget{assessment-tier-assessments-only}{%
+  \paragraph{``Assessment Tier'' (Assessments Only)}\label{assessment-tier-assessments-only}}
+
+  The availability of analytical methods increases as data and biological information increase, and thus more methods typically become available with more information. Some of the simpler approaches may no longer be strong candidates for application in light of more data-driven methods. The ``assessment tier'' category is provided to help determine the general data requirement and model complexity levels for each method. This is especially useful when choosing which methods to prioritize as it allows the user to identify the most data-driven methods rather than attempting to do all possible. A general recommendation is to initially consider or prioritize the highest ``tier'' methods available when choosing methods to implement, though this does not exclude adding other lower tier methods if desired. Indeed, the user is encouraged to consider the trade-offs between research capacity and inherent data uncertainties associated with ``higher tier'' assessment methods, and the lower data requirements and required research capacity, yet reduced robustness, of the ``lower tier'' assessments. In order to emphasize more rigorous methods, ``Stock Prioritization'' and ``Extremely data-poor'' methods are automatically hidden when ``Mid'' or ``High'' options are available.
 
   There are 5 ``assessment tiers'':
 
-  \emph{Pre-assessment -- Risk Analysis}: Methods in this ``tier'' identify species or groups of species that may be classed as ``at risk of harm'', and help prioritize which stocks should be focused on for further management. It is recommended to complete one risk analysis before conducting a FishPath questionnaire to hone understanding of which parts of the fishery the user is trying to manage.
-
-  \emph{Pre-assessment -- Life-History Based}: These methods give target reference points that can then be used in other assessment methods.
-
-  \emph{Extremely data-poor}: Methods that can provide guidance for management if minimal data are available. If mid or high ``tier'' methods are available for the fishery, then the user should preferentially focus on those methods.
-
-  \emph{Mid}: Methods that require a moderate amount of data, usually collected over a series of time. These include methods such as length-based methods, catch-only methods, or multi-indicator frameworks.
-
-  \emph{High}: Methods that, relatively speaking, have the most intensive data and computation requirements, i.e.~population dynamic models.
+  \begin{enumerate}
+  \def\labelenumi{\alph{enumi}.}
+  \item
+    \textbf{Pre-assessment -- Stock Prioritization (SP):} Methods in this ``tier'' identify species or groups of species that may be classed as ``at risk of harm'', and help prioritize which stocks should be focused on for further management.
+  \item
+    \textbf{Pre-assessment -- Life-History Based Reference Points (RP):} These methods give target reference points that can then be used in other assessment methods.
+  \item
+    \textbf{Extremely data-poor (single bar):} Methods that can provide guidance for management if minimal data are available. If mid or high ``tier'' methods are available for the fishery, then the user should preferentially focus on those methods.
+  \item
+    \textbf{Mid (two bars):} Methods that require a moderate amount of data, usually collected over a series of time. These include methods such as length-based methods, catch-only methods, or multi-indicator frameworks.
+  \item
+    \textbf{High (three bars):} Methods that, relatively speaking, have the most intensive data and computation requirements, i.e.~population dynamic models.
+  \end{enumerate}
 \item
   \textbf{Option:} This is the name of the option being considered.
 \end{itemize}
@@ -562,14 +758,16 @@ Next to each, there are individual drop-down menus where the user can find the s
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\linewidth]{images/option-description} \includegraphics[width=0.5\linewidth]{images/option-result-details} 
+{\centering \includegraphics[width=0.5\linewidth]{images/option-description} 
 
 }
 
-\caption{Example of pop-up box that appears when clicking on each option.}\label{fig:opt-desc}
+\caption{Example of pop-up box that appears when clicking on each option. The user may click to expand each drop down menu for detail on each criteria or caveat (red label “Click to expand”).}\label{fig:opt-desc}
 \end{figure}
 
-\textbf{Criteria drop-down box (Figures \ref{fig:crit-drop-down}-\ref{fig:assessment-crit-drop-down})}: Each criterion drop-down shows the relevant question with the user's response shown (highlighted in black) relative to the minimum required level for that option (where green coloring starts on left) (Figure \ref{fig:crit-drop-down}). The Assessment section assigns traffic light colors to levels above the minimum, indicating their relative uncertainty and thus the relative caution that should be taken (Figure \ref{fig:assessment-crit-drop-down}).
+\textbf{Criteria drop-down box (Figures \ref{fig:crit-drop-down}-\ref{fig:assessment-crit-drop-down})}: Each criteria drop-down shows the relevant question with the user's response bolded.
+
+For the assessment section, when the minimum criteria are met, traffic light colors are assigned to indicate their relative uncertainty and subsequently the relative caution that should be taken (Figure \ref{fig:assessment-crit-drop-down}).
 
 \begin{figure}
 
@@ -577,7 +775,7 @@ Next to each, there are individual drop-down menus where the user can find the s
 
 }
 
-\caption{Example drop-down menu with details for an option in the Data Collection section that was eliminated for failing two criteria. The bold, black box and white text indicates the user answer to the question. The black answer options indicate those that result in elimination if selected. The green answer options indicate those that would have resulted in acceptance if selected.}\label{fig:crit-drop-down}
+\caption{Example drop-down menu with details for an option in the Data Collection section that was eliminated for failing two criteria. The bold, black box and white text indicates the user's answer to the question. The black answer options (black bar on left) indicate those that result in elimination if selected. The green answer options (green bar on left) indicate those that would have resulted in acceptance if selected.}\label{fig:crit-drop-down}
 \end{figure}
 
 \begin{figure}
@@ -586,10 +784,10 @@ Next to each, there are individual drop-down menus where the user can find the s
 
 }
 
-\caption{Example drop-down menu with details for an option in the Assessment section that has passed criteria, but indicating the user to take caution regarding the uncertainty in the fishing effort data. Red indicates high uncertainty in the data. Green indicates low uncertainty.}\label{fig:assessment-crit-drop-down}
+\caption{Example drop-down menu with details for an option in the Assessment section that has passed criteria, but indicating the user to take caution regarding the uncertainty in removal data. Red indicates high uncertainty in the data. Green indicates low uncertainty. Bold box with white text indicates the user’s response.}\label{fig:assessment-crit-drop-down}
 \end{figure}
 
-\textbf{Caveat Drop-Down Box (Figures \ref{fig:cav-drop-down}-\ref{fig:static-cav-drop-down})}: Each individual caveat box displays the FishPath question with the user's answer in grey text, followed by caveat text related to the use of the option in the fishery in the context of that particular question response. The color of each box reflects the caveat color (see caveat descriptions above): cautionary caveats shaded yellow, orange or red; positive attributes shaded green; and static caveats shaded in turquoise.
+\textbf{Caveat Drop-Down Box (Figures \ref{fig:cav-drop-down}-\ref{fig:static-cav-drop-down})}: Each individual caveat box displays the FishPath question with the user's answer in grey text, followed by caveat text related to the use of the option in the fishery in the context of that particular question response. The color of each box reflects the caveat color (see caveat descriptions above): cautionary caveats shaded yellow, orange or red; positive attributes shaded green; and static caveats shaded in light blue.
 
 \begin{figure}
 
@@ -597,7 +795,7 @@ Next to each, there are individual drop-down menus where the user can find the s
 
 }
 
-\caption{Example caveat drop-down menu with details for an option for which questionnaire responses invoked 8 cautionary caveats (2 orange, 6 yellow, as shown at the top right corner of the drop-down menu).}\label{fig:cav-drop-down}
+\caption{Example caveat drop-down menu with details for an option for which questionnaire responses invoked 4 cautionary caveats (1 red, 2 orange, 1 yellow, as shown at the top right corner of the drop-down menu).}\label{fig:cav-drop-down}
 \end{figure}
 
 \begin{figure}
@@ -606,7 +804,7 @@ Next to each, there are individual drop-down menus where the user can find the s
 
 }
 
-\caption{Example drop-down menu of positive attributes for an option for which questionnaire responses invoked 5 positive attributes (shown at the top right corner of the drop-down menu).}\label{fig:pos-attr-drop-down}
+\caption{Example drop-down menu of positive attributes for an option for which questionnaire responses invoked 2 positive attributes (shown at the top right corner of the drop-down menu).}\label{fig:pos-attr-drop-down}
 \end{figure}
 
 \begin{figure}
@@ -615,26 +813,8 @@ Next to each, there are individual drop-down menus where the user can find the s
 
 }
 
-\caption{Example static caveat drop-down menu for an option with 3 static caveats (shown at the top right corner of the drop-down menu). Each individual static caveat box displays grey text to note “This caveat always applies to this option”, and a short explanation of the static caveat.}\label{fig:static-cav-drop-down}
+\caption{Example static caveat drop-down menu for an option with 2 static caveats (shown at the top right corner of the drop-down menu). Each individual static caveat box displays grey text to note “This caveat always applies to this option”, and a short explanation of the static caveat.}\label{fig:static-cav-drop-down}
 \end{figure}
-
-\hypertarget{more-information-on-options-within-the-3-results-sections}{%
-\subsection{More Information on Options within the 3 Results Sections}\label{more-information-on-options-within-the-3-results-sections}}
-
-\hypertarget{data-collection-section-results}{%
-\subsubsection{Data Collection Section Results}\label{data-collection-section-results}}
-
-The Data Collection section of the FishPath tool includes a range of data collection options (from market surveys, to logbooks and observer programs). These data collection options are subdivided according to the broad category of data that may be collected, as these influence the viability of the data collection option. The four data categories in the FishPath tool are: 1) biological information; 2) data that yield a basic understanding of the fishery; 3) data that can inform temporal trend analyses (data time series), and 4) data that are of a sufficient quality to inform a model-based stock assessment.
-
-\hypertarget{assessment-section-results}{%
-\subsubsection{Assessment Section Results}\label{assessment-section-results}}
-
-The Assessment section of the FishPath tool allows the user to understand which data-limited stock assessment methods are available and best suited to their fishery. In the FishPath tool, an assessment is defined as any analysis or performance indicator that gives useful information for management by direct or indirect measures of stock status. This could range from a ``cause for concern'' arising from expert judgement, qualitative risk assessments, values of empirical indicators relative to pre-defined trigger levels, multiple indicator frameworks, to life history analyses that provide estimates of fishing mortality, F, or fishing mortality at maximum sustainable yield FMSY, catch-only models, size or length based approaches, to population dynamics model-fitting approaches that estimate biomass.
-
-\hypertarget{management-measure-section-results}{%
-\subsubsection{Management Measure Section Results}\label{management-measure-section-results}}
-
-A management measure is the form of control used to manage the fishing mortality. Once the desired management measures have been identified (for example, size limits, or catch adjustments in response to quantitative assessment outcomes), they are adjusted via ``decision rules'', or ``harvest control rules''. These specify the strength and nature of the pre-agreed management action to be taken given the status of the fishery, as determined by the assessment. Management measures can take many forms including spatial, temporal, effort, catch, and gear related restrictions. The FishPath tool does not have any minimum criteria listed for management measures, but instead uses cautionary caveats. Multiple management measures can and should be used together. The FishPath tool results do not prescribe or give guidance on the specific form of the harvest rule, nor the strength of adjustment in response to assessment outcomes. However, the FishPath tool does direct users to resources and tools that can support in this process, located within the description of each option.
 
 \hypertarget{show-hidden-options-and-sort-options}{%
 \section{Show Hidden Options and Sort Options}\label{show-hidden-options-and-sort-options}}
@@ -650,18 +830,20 @@ The ``Show Hidden Options'' Toggle (Figure \ref{fig:show-hidden-sort}) allows us
 \caption{Results page with the “Show Hidden Options” Toggle and “Sort Options” in a red circle.}\label{fig:show-hidden-sort}
 \end{figure}
 
-The ``Sort Options'' functionality allows the user to arrange and view the options in different ways. This does not affect the results or shortlisting of options; it is merely a means to organize and display the results.
+The ``Sort Options'' functionality allows the user to arrange and view the options in different ways. This does not affect the results or shortlisting of options; it is merely a means to organize and display the results. The current sort selected is shown at the top of the results table at ``Current Sorting Method'' (Figure \ref{fig:show-hidden-sort}).
 
 After clicking ``Sort Options'', a pop-up box (Figure \ref{fig:filter-and-sorting}) appears with the ability to sort the options by:
 
 \begin{itemize}
 \tightlist
 \item
-  In the Assessment section only, there is an additional option to sort by two categories: ``Output-Based Category'' (i.e., according to the general type of output generated by the assessment method or option); or ``Input-Based Category'' (i.e., according to the main form of input required by the assessment or option).
+  In the Assessment section only, there is an additional option to select which category to display: ``Assessment Category'' or ``Assessment Output''.
 \item
   \textbf{Default Order:} The default sort is to list all options that did not meet minimum criteria at the bottom (automatically greyed out as hidden options), with the options for which the highest number of cautionary caveats were invoked at the top for review.
 \item
-  \textbf{Customized Sort Order:} This maintains the current sort order but allows users to return to the results table and ``drag and drop'' options into the preferred order.
+  \textbf{Customized Sort Order:} This allows users to ``drag and drop'' options into their preferred order.
+\item
+  \textbf{Sort by assessment `tiers' (Assessment Only):} Sorts options by assessment tier.
 \item
   \textbf{Sort by option name:} Sorts options alphabetically by option name.
 \item
@@ -669,7 +851,6 @@ After clicking ``Sort Options'', a pop-up box (Figure \ref{fig:filter-and-sortin
 \end{itemize}
 
 Clicking a Sort option automatically sorts the options on the screen. After making selections on the Sort window, users can click outside of the pop-up onto the results table to return to the results.
-The current sort selected is shown at the top of the results table at ``Current Sorting Method'' (Figure \ref{fig:show-hidden-sort}).
 
 \begin{figure}
 
@@ -677,18 +858,18 @@ The current sort selected is shown at the top of the results table at ``Current 
 
 }
 
-\caption{Sort Options pop-up box.}\label{fig:filter-and-sorting}
+\caption{Sort Options pop-up box. The functionality to sort by “Assessment Outputs” or “Assessment Categories” is only available in the Assessment Section.}\label{fig:filter-and-sorting}
 \end{figure}
 
 \hypertarget{bookmarked-questions-and-influential-answers}{%
 \section{Bookmarked Questions and Influential Answers}\label{bookmarked-questions-and-influential-answers}}
 
-If the user scrolls to the bottom of the results screen (below results table), they are provided with a summary list of the questions bookmarked by the user, together with a list of ``Influential Answers'', and, finally, a ``See All Answers'' link.
+If the user scrolls to the bottom of the results screen (below results table), they are provided with a summary list of the questions bookmarked by the user, together with a list of ``Influential Answers'', and a ``See All Answers'' link.
 
 \hypertarget{bookmarked-questions}{%
 \subsection{Bookmarked Questions}\label{bookmarked-questions}}
 
-All questions that were ``bookmarked'' during the questionnaire will be listed here (Figure \ref{fig:flagged-questions}). Users can select each question to get a detailed list of all caveats invoked or criteria not met based on the response. Users can also select each question to change the answer, add notes, or remove bookmark. It is highly recommended to review these questions and invoked caveats so that users can update their response or provide more detailed notes on the response, based on seeing how the response impacts results.
+All questions that were ``bookmarked'' during the questionnaire will be listed here (Figure \ref{fig:flagged-questions}). Users can select each question to get a detailed list of all caveats invoked or criteria not met based on the response. Users can select each question to change the answer, add notes, or remove the bookmark. It is highly recommended to review these questions so that users can change the answer or provide more detailed notes on the response, based on seeing how the response impacts results.
 
 \begin{figure}
 
@@ -702,9 +883,9 @@ All questions that were ``bookmarked'' during the questionnaire will be listed h
 \hypertarget{influential-answers}{%
 \subsection{Influential Answers}\label{influential-answers}}
 
-The ``Influential Answers'' list is a summary of the questions and user responses that invoked the most eliminating criteria (by number), together with the number of caveats and criteria invoked, by assigned traffic light color (Figure \ref{fig:influential-answers}). The caveats invoked by the question are displayed (color strength and number) to its left.
+The Influential Answers list is a summary of the questions and user responses that invoked the most eliminating criteria and greatest number of strong caveats (Figure \ref{fig:influential-answers}). The criteria and caveats invoked by these questions are displayed with icons to the left of the question by number and color strength.
 
-It is recommended to review this list prior to entering the results narrowing process (described below), to better understand some of the key challenges facing the fishery. Users can select any question on this list to change an answer, add notes to the question, and see a list of all impacted options and their associated caveats (Figure \ref{fig:influential-answers-expanded}).
+It is recommended to review this list prior to entering the results narrowing process (described below), to better understand some of the key challenges facing the fishery. Users can select any question on this list to change the answer, add notes to the question, and see a list of all impacted options and their associated caveats (Figure \ref{fig:influential-answers-expanded}).
 
 \begin{figure}
 
@@ -721,29 +902,41 @@ It is recommended to review this list prior to entering the results narrowing pr
 
 }
 
-\caption{Impacted options for a question.}\label{fig:influential-answers-expanded}
+\caption{When clicking on a question in the influential answer list, a pop-up is displayed, allowing the user to view impacted options.}\label{fig:influential-answers-expanded}
 \end{figure}
 
-At the bottom of these lists, there is a link to ``See All Answers'' (as well as at the top of the results screen under ``Answers''). These links take users to a full list of answers from each section, showing all information, including the number of caveats invoked, and any bookmarked questions. This is a good resource for users wanting to review the questionnaire responses for a fishery. Answers may also be changed and notes added, which update after clicking ``Save''.
+\hypertarget{see-all-answers}{%
+\subsection{See All Answers}\label{see-all-answers}}
+
+There are 2 ways for the user to view all their answers to the questionnaire from the results page. First, at the top of the page, users can click the hyperlink ``answers'' in the paragraph under the ``Results'' header. Second, at the bottom of the page, there is a button labeled ``See All Answers''. After clicking either of these, the user is directed to the answers page. The answers page includes a full list of answers from all sections with corresponding details. This is a good resource for users wanting to review the questionnaire responses and associated notes for a fishery. Answers may also be changed and notes added, which update after clicking ``Save''.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{images/see-all-answers-buttons} 
+
+}
+
+\caption{Two ways for users to view all answers to the questionnaire (red boxes) on the results page.}\label{fig:answers-buttons}
+\end{figure}
 
 \hypertarget{Results-Narrowing}{%
 \section{Results Narrowing Process}\label{Results-Narrowing}}
 
-Typically, the FishPath questionnaire process results in a long list of potential options that are presented to the user. The challenge is to then refine this to a workable shortlist of options that can be reviewed in further detail, and around which a draft harvest strategy can be developed. This can be a daunting task, given the number of options, and the large amount of detail around the criteria and caveats invoked against each. As such, the Results Review provides guidance as to how to undertake the task of narrowing the list of viable harvest strategy components.
+The FishPath questionnaire process results in a long list of potential options that are presented to the user. The challenge is to then narrow this to a workable shortlist of options that can be reviewed in further detail, and around which a draft harvest strategy can be developed. This can be a daunting task, given the number of options, and the large amount of detail around the criteria and caveats.
 
-The Results Narrowing process prompts the user through a series of steps to further refine and narrow the options for their fishery, and to consider detail about the application of each option in the fishery. The goal is to finish with a short list of defensible, appropriate and documented options for the fishery.
+As such, the Results Narrowing process prompts the user through a series of steps to review and narrow the options for their fishery, and to consider detail about the application of each option in the fishery. \textbf{The goal is to finish with a short list of defensible, appropriate, and documented options for the fishery.}
 
-First, the user accesses the Results Narrowing process by selecting the ``Narrow Your Results'' button located above the Results Table in the Results Screen. (See Figure \ref{fig:results-overview})
+First, the user accesses the Results Narrowing process by selecting the ``Narrow Your Results'' button located above the Results Table in the Results Screen (See Figure \ref{fig:results-overview}).
 
-After clicking on ``Narrow Your Results'', the user is directed to a step-wise results review process (Figure \ref{fig:results-review}). Each step of the results review process contains an ``Instructions'' box with clear steps, as well as the ability to access different steps of the results review process through ``Back'', ``Exit Review'' and ``Next Step'' (Figure \ref{fig:results-review}). Across the top of the page, the user views steps in the process:
+After clicking on ``Narrow Your Results'', the user is directed to a step-wise results review process (Figure \ref{fig:results-review-header}). Each step of the results review process contains an ``Instructions'' box above the results with clear steps, as well as the ability to access different steps of the results review process through ``Back'', ``Exit Review'' and ``Next Step'' (Figure \ref{fig:results-review-header}). The blue ribbon across the top of the page shows which step of the process the user is at.
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.95\linewidth]{images/results-review} 
+{\centering \includegraphics[width=0.95\linewidth]{images/results-review-header} 
 
 }
 
-\caption{Overview of the FishPath Tool results screen and results review process.}\label{fig:results-review}
+\caption{Header for the results narrowing process.}\label{fig:results-review-header}
 \end{figure}
 
 The narrowing process (done as a group exercise or by independent users), consists of the following major steps:
@@ -752,7 +945,7 @@ The narrowing process (done as a group exercise or by independent users), consis
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \textbf{Option Retention (Figure \ref{fig:review-step-1}):} The goal of the first step is to hide all options that are clearly not viable for the fishery due to failure to meet minimum criteria, logistical, political, or other major reasons. Users should carefully review the list to hide these options, as well as un-hide options that they want to reinstate. Specific instructions are included on the screen in this step of the process, including questions to consider as narrowing the list.
+  \textbf{Option Retention (Figure \ref{fig:review-step-1}):} The goal of the first step is to hide all options that are clearly not viable for the fishery due to failure to meet minimum criteria, logistical, political, or other major reasons. Users should review the list to hide these options, as well as un-hide options that they want to reinstate. Specific instructions are included on the screen in this step of the process, including questions to consider as narrowing the list. When complete, the user clicks on ``next step'' and a blue check will appear next to ``Option Retention'' in the blue ribbon at the top.
 \end{enumerate}
 
 \begin{figure}
@@ -769,7 +962,7 @@ The narrowing process (done as a group exercise or by independent users), consis
 \setcounter{enumi}{1}
 \tightlist
 \item
-  \textbf{Identification of Top Options (Figure \ref{fig:review-step-2}):} In this step, users review each remaining option to identify a short list of starred options that will be seriously considered and explored in more detail. Users should familiarize themselves with the sorting feature and the influential answer list (see above) to facilitate this process. When comparing options, users should compare the number of cautionary caveats and criteria, their relative strength, and the ratio of cautionary caveats to positive attribute caveats. Specific instructions are included on the screen in this step of the process.
+  \textbf{Identification of Top Options (Figure \ref{fig:review-step-2}):} In this step, users review each remaining option to identify a short list of starred options that will be seriously considered and explored in more detail. Users should familiarize themselves with the sorting feature and the influential answer list (see above) to facilitate this process. When comparing options, users should compare the criteria, cautionary caveats, and positive attributes. Specific instructions are included on the screen in this step of the process. As the user ``stars'' options, a black number circled in orange appears next to the step in the blue ribbon at the top of the page. The number represents the number of top options that have been starred. A blue check mark will appear in the blue ribbon for this step once the user clicks the ``next step'' button.
 \end{enumerate}
 
 \begin{figure}
@@ -786,7 +979,7 @@ The narrowing process (done as a group exercise or by independent users), consis
 \setcounter{enumi}{2}
 \tightlist
 \item
-  \textbf{Critical Evaluation of Top Options (Figure \ref{fig:review-step-3}):} In the final step, users can more critically evaluate the top options by considering each criterion and caveat in complete detail, and, potentially, ranking the options in order of potential. To facilitate this process, users can export a report that lists the top options and all of their details.
+  \textbf{Critical Evaluation of Top Options (Figure \ref{fig:review-step-3}):} In the final step, users can more critically evaluate the top options by considering each criterion and caveat in complete detail, and, potentially, ranking the options in order of potential.
 \end{enumerate}
 
 \begin{figure}
@@ -796,6 +989,45 @@ The narrowing process (done as a group exercise or by independent users), consis
 }
 
 \caption{Step 3, Critical Evaluation of Top Options, in the results review process.}\label{fig:review-step-3}
+\end{figure}
+
+Upon fishing this step, users should click ``Finish'' to finalize results and return to the results page. The results will then be filtered to only show Narrowed Options. Users may still toggle between the Narrowed Options and all options. A PDF report of the Narrowed Options can be generated by clicking the ``Generate PDF Report'' button, while using the filter to show Narrowed options only.
+
+\hypertarget{Results-Actions}{%
+\section{Actions to Share Results and Edit Fishery Info}\label{Results-Actions}}
+
+At the top of the Results Page, the user may either ``Share'', ``Export CSV'', ``Generate PDF Report'', ``Copy'', or ``Edit Name and Details'' for their fishery (Figure \ref{fig:results-components}).
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Share:} This will generate a link that allows the user to share fishery results with others. The user simply needs to send the link and the recipient will have \protect\hyperlink{view-only-mode-shared-fishery}{\textbf{view-only access}} to this fishery from their active account. A shared fishery can be saved under someone else's FishPath account, and they can make a copy of it to separately edit, if needed. Tip: when creating a copy of a shared fishery in a user account, it is useful to rename the fishery so that edits are tracked under this new name.
+\item
+  \textbf{Export CSV:} This allows users to export the question and answer list from the saved questionnaire, as well as a simple results file, as a .csv file.
+\item
+  \textbf{Generate PDF Report:} Allows the user to create a .PDF of the FishPath results, with all notes captured. The PDF report provides detailed information on each option and their associated caveats and criteria related to the fishery. Users can select to see a report for the ``full list'' of options, or for a specified list of ``top options''.
+\item
+  \textbf{Copy Fishery:} This allows users to make a copy of a fishery's results, either their own or from a shared link. The user may update the fishery information for the new copied fishery before confirming the copy. The copy will be saved in the user's Dashboard.
+\item
+  \textbf{Edit Name and Details:} This allows users to edit the information entered on the Fishery Information form (name, species, geography, etc.).
+\end{itemize}
+
+\hypertarget{view-only-mode-shared-fishery}{%
+\section{View-Only Mode (Shared Fishery)}\label{view-only-mode-shared-fishery}}
+
+Users may \protect\hyperlink{Results-Actions}{\textbf{share a FishPath questionnaire and results}} with other audiences as a shared link, but the answers and results cannot be edited by other users. This allows the results to be maintained.
+
+When clicking the shared link, the user will view results in a ``View-Only'' mode (Figure 32). In this mode, the user will be able to explore the results and answers provided by the original user; however, the user will not be able to make any changes. The user can sort and filter options, yet editing functionality is disabled, such as the ability to update questionnaire answers or add notes. Greyed out options indicate options hidden by the original user. If notes taken by the original user exist, they will appear with a yellow note icon in view-only mode.
+
+The user may ``Copy Fishery'', allowing them to edit fishery details such as name and location, and then make any edits. This ``copied fishery'' will appear on their Dashboard.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.95\linewidth]{images/view-only} 
+
+}
+
+\caption{The “View-Only” mode of FishPath Tool results.}\label{fig:view-only}
 \end{figure}
 
 \hypertarget{appendix-appendix}{%
@@ -1259,10 +1491,10 @@ Areas where extractive activities are prohibited
 
 Sala, E., and Giakoumi, S. 2017. No-take marine reserves are the most effective protected areas in the ocean. -- ICES Journal of Marine Science, 75: 1166--1168.
 
-\hypertarget{nursery-grounds}{%
-\subsection{Nursery grounds}\label{nursery-grounds}}
+\hypertarget{nursery}{%
+\subsection{Nursery}\label{nursery}}
 
-Nursery grounds refers to the part of a fish's or animal's habitat where the young develop and grow.
+Nursery refers to the part of a fish's or animal's habitat where the young develop and grow.
 
 Source: \href{https://repository.library.noaa.gov/view/noaa/12856}{Blackhart, K., Stanton, D. G., \& Shimada, A. M. (2006). \emph{NOAA fisheries glossary.} United States Department of Commerce, National Oceanic and Atmospheric Administration.}
 
