@@ -9,7 +9,7 @@ The goal of the FishPath Tool questionnaire is to elicit information about all a
 5. Operational Characteristics
 6. Socio-Economic
 
-Some questions are relevant to multiple sections (Data Collection, Assessment, Management Measures). Once answered, these will not appear in any subsequent section in which they occur.
+Some questions are relevant to multiple sections (Data Collection, Assessment, Management Measures). Once answered, these will not appear in any subsequent section in which they occur. For more information on how questions that cross multiple sections are displayed, please see [this FAQ below](#faq-question-numbering).
 
 At any time, the user may close and later return to their session via their “My Fisheries” dashboard. Once the user has completed an individual section, the user may either complete a subsequent section or view results from the completed section. Results for any section become available once the user has completed the respective questionnaire section. 
 
@@ -55,7 +55,7 @@ Generally, the best approach to take when completing the questionnaire is to aim
 ## Completing the Questionnaire
 Upon completing or exiting any of the three sections, a pop-up summary window appears with the questionnaire status (Figure \@ref(fig:summary-screen)). Users may review their results for completed sections, or otherwise continue the questionnaire.
 
-The questionnaire is periodically updated by the FishPath team to reflect the latest fisheries science. If there are any new or outstanding questions, the section will no longer display as “Complete” in the pop-up summary window (Figure \@ref(fig:summary-screen)) when returning to a fishery questionnaire. Instead, the number of new questions needing to be answered will be displayed (e.g., “45 of 46 questions answered”).
+The questionnaire is periodically updated by the FishPath team to reflect the latest fisheries science. If there are any new or outstanding questions, the section will no longer display as “Complete” in the pop-up summary window (Figure \@ref(fig:summary-screen)) when returning to a fishery questionnaire. Instead, the number of new questions needing to be answered will be displayed (e.g., “45 of 46 questions answered”). For more information on questionnaire updates, please see [this FAQ below](#faq-content-updates).
 
  ```{r summary-screen, echo=FALSE, fig.cap='Summary window of the 3 FishPath Tool questionnaire sections, showing questionnaire progress.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/summary-screen.png')
