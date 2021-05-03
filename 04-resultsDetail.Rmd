@@ -241,7 +241,7 @@ First, the user accesses the Results Narrowing process by selecting the “Narro
 
 After clicking on “Narrow Your Results”, the user is directed to a step-wise results review process (Figure \@ref(fig:results-review-header)). Each step of the results review process contains an “Instructions” box above the results with clear steps, as well as the ability to access different steps of the results review process through “Back”, “Exit Review” and “Next Step” (Figure \@ref(fig:results-review-header)). The blue ribbon across the top of the page shows which step of the process the user is at.
 
-```{r results-review-header, echo=FALSE, fig.cap='Header for the results narrowing process.', fig.align='center', out.width='95%', fig.show='hold'}
+```{r results-review-header, echo=FALSE, fig.cap='The steps in the results narrowing process.', fig.align='center', out.width='95%', fig.show='hold'}
 knitr::include_graphics('images/results-review-header.png')
 ```
 
@@ -280,7 +280,7 @@ At the top of the Results Page, the user may either “Share”, “Export CSV�
 ## View-Only Mode (Shared Fishery)
 Users may [**share a FishPath questionnaire and results**](#Results-Actions) with other audiences as a shared link, but the answers and results cannot be edited by other users.  This allows the results to be maintained.
 
-When clicking the shared link, the user will view results in a “View-Only” mode (Figure 32). In this mode, the user will be able to explore the results and answers provided by the original user; however, the user will not be able to make any changes. The user can sort and filter options, yet editing functionality is disabled, such as the ability to update questionnaire answers or add notes. Greyed out options indicate options hidden by the original user. If notes taken by the original user exist, they will appear with a yellow note icon in view-only mode. 
+When clicking the shared link, the user will view results in a “View-Only” mode (Figure \@ref(fig:view-only)). In this mode, the user will be able to explore the results and answers provided by the original user; however, the user will not be able to make any changes. The user can sort and filter options, yet editing functionality is disabled, such as the ability to update questionnaire answers or add notes. Greyed out options indicate options hidden by the original user. If notes taken by the original user exist, they will appear with a yellow note icon in view-only mode. 
 
 The user may “Copy Fishery”, allowing them to edit fishery details such as name and location, and then make any edits. This “copied fishery” will appear on their Dashboard. 
 
