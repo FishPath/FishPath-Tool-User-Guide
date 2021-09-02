@@ -5,10 +5,10 @@
 \documentclass[
   11pt,
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -42,7 +42,8 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
 \makeatletter
@@ -51,7 +52,7 @@
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
 \makesavenoteenv{longtable}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -69,12 +70,16 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 \usepackage{booktabs}
+
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
 \title{FishPath Tool User Guide}
 \author{The Nature Conservancy}
-\date{Last updated: May 03, 2021}
+\date{Last updated: September 02, 2021}
 
 \begin{document}
 \maketitle
@@ -1066,7 +1071,9 @@ Every time a user logs in, the Tool will use the most up to date version of the 
 \hypertarget{faq-stay-updated}{%
 \paragraph{How do I stay updated on changes to the FishPath Tool questionnaire or content?}\label{faq-stay-updated}}
 
-A brief summary of any major changes is documented in the biannual newsletter. A changelog is under development which will document all the changes made after April 2021.
+A brief summary of any major changes is documented in the biannual newsletter.
+
+An up to date list of all content changes is documented in the \href{https://github.com/FishPath/FishPath-Tool-User-Guide/blob/master/Major\%20Content\%20Updates.md}{change log}. This list contains an overview of major changes such as new or edited questions and options. A detailed spreadsheet of every criteria and caveat change is \href{https://docs.google.com/spreadsheets/d/1HPlUvI6XuvXtYdFk5bpOsG4JR1fdM0D58KO5mBs0fyE/edit?usp=sharing}{located here}. It allows you to filter and sort by specific options or questions.
 
 \hypertarget{faq-copy-fisheries}{%
 \paragraph{Are answers to new questions also updated in ``copied fisheries''?}\label{faq-copy-fisheries}}

@@ -19,7 +19,9 @@ Every time a user logs in, the Tool will use the most up to date version of the 
 
 ##### How do I stay updated on changes to the FishPath Tool questionnaire or content? {#faq-stay-updated}
 
-A brief summary of any major changes is documented in the biannual newsletter. A changelog is under development which will document all the changes made after April 2021.
+A brief summary of any major changes is documented in the biannual newsletter.
+
+An up to date list of all content changes is documented in the [change log](https://github.com/FishPath/FishPath-Tool-User-Guide/blob/master/Major%20Content%20Updates.md). This list contains an overview of major changes such as new or edited questions and options. A detailed spreadsheet of every criteria and caveat change is [located here](https://docs.google.com/spreadsheets/d/1HPlUvI6XuvXtYdFk5bpOsG4JR1fdM0D58KO5mBs0fyE/edit?usp=sharing). It allows you to filter and sort by specific options or questions.
 
 ##### Are answers to new questions also updated in “copied fisheries”? {#faq-copy-fisheries}
 
