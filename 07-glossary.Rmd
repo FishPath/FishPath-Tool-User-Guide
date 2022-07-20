@@ -204,6 +204,11 @@ Indicates the limit beyond which the state of a fishery and / or a resource is n
 
 via (ref:FAO)</font>
 
+### "Live" Fishery
+A "live” fishery refers to a fishery where species are captured or harvested alive. This may be done for human consumption or the aquarium trade, for example.
+
+<font size="2">Source: FishPath Team</font>
+
 ### Management Strategy
 See [Harvest Strategy]
 
