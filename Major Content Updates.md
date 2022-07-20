@@ -9,6 +9,15 @@ DC: Data Collection
 A: Assessment
 MM: Management Measures
 
+## 2022
+### January
+*(A) January 25*: Length-based options update.
+> Updated the length-based options to be more inclusive of varying specific length-based methods. These options are now designed to follow a progression of having limited length data to having a length and catch series, and a full suite of parameters. Options updated listed below. All have minor updates to their description and criteria/caveats. 
+> - LB-SPR
+> - Length-Only Integrated Models (previous title: LIME)
+> - Catch and Length Integrated Models (NEW)
+> - Age-structured Integrated Models (previous title: SCAA)
+
 ## 2021
 
 ### August
