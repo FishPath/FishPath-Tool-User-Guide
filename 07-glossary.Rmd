@@ -12,8 +12,8 @@ The total number of a kind of ﬁsh in a population; this is rarely known, and u
 <font size="2">Source: (ref:NOAACite)</font>
 
 
-### B0 (Virgin Biomass)
-"B0", or virgin biomass, refers to the average biomass of a stock that has yet not been fished. It is generally calculated as the long-term average biomass value expected in the absence of fishing mortality. In production models, B0 is also known as carrying capacity. It is often used as a reference value to assist the relative health of a stock, monitoring changes in the ratio between current and virgin biomass (B/B0).
+### B0 (Unfished Biomass)
+"B0", unfished biomass or virgin biomass, refers to the average biomass of a stock that has yet not been fished. It is generally calculated as the long-term average biomass value expected in the absence of fishing mortality. In production models, B0 is also known as carrying capacity. It is often used as a reference value to assist the relative health of a stock, monitoring changes in the ratio between current and virgin biomass (B/B0).
 
 <font size="2">Source: Restrepo V. (1999): Annotated Glossary of Terms in Executive Summary Reports of the International Commission for the Conservation of Atlantic Tunas' Standing Committee on Research and Statistics (SCRS), _ICCAT_.
 
@@ -218,6 +218,15 @@ The highest theoretical equilibrium yield that can be continuously taken (on ave
 <font size="2">Source: FAO Fisheries and Aquaculture Department, FAO, 2014.
 
 via (ref:FAO)</font>
+
+### Metapopulation
+A population that consists of a series of physically separate subpopulations linked by dispersal.
+Metapopulations persist as a result of a balance between
+extinctions of subpopulations and recolonization
+of habitat patches (and hence reestablishment of
+subpopulations).
+
+<font size="2">Source: (ref:NOAACite)</font>
 
 ### Multispecies fishery
 A multispecies fishery is a fishery in which more than one species is caught at the same time. Because of the imperfect selectivity of most fi shing gears, most fisheries are “multispecies.” The term is often used to refer to fisheries where more than one species is intentially sought and retained.
